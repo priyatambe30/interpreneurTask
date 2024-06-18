@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.container {
+    font-family: 'Verdana, Geneva, sans-serif,Nunito';
+    /* font-size: 20px; */
+    color: black;
+   max-width: 1366px;
+    height: 1047px;
+    background-color: rgb(241, 237, 237);
+    
+  }
+  
+  .app-header {
+    font-weight: 700px;
+    font-size: 24px;
+    color: black;
+  }
+  .logo{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+        
+  }
+
+  .loadComponent{
+    position: absolute;
+    left: 190px;
+    top: 60px;
+    /* font-size: 20px; */
+    width: 1050px;
+    height: 950px;
+    background-color: rgb(248, 242, 234);
+   
+    
+  }
+  .Menubar{
+    
+    color: blue;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    line-height: 40px;
+  }
+ 
+.ImageContent{
+  position: relative;
+  left: 20px;
+  top: -85px;
+  width: 40px;
+  height: 40px;
+  
+}
+.profile{
+  position: absolute;
+  left: 30px;
+  top: 940px;
+  width: 170px;
+  height: 100px;
+  /* background-color: aqua; */
+  font-size: xx-small;
+  color: black;
+  display:flex;
+}
+.lamp-container{
+  position: relative;
+  left: 60px;
+  top: 260px;
+
+}
+.lampBgImg{
+  position: relative;
+  left:40px;
+  top: 400px;
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  background: rgb(221, 220, 244);
+
+}
+.lampbtn{
+  width: 100px;
+  height: 30px;
+  background: rgba(96, 91, 255, 1);
+
+  color: white;
+  border-radius: 10px;
+  font-size: small;
+}
+  
