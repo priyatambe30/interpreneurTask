@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.lblUserData{
+    /* position: absolute;
+    top: 50px;
+    left: 100px; */
+    
+    /* word-spacing: 10px;
+    border-right: 10px solid black; */
+    width: 80px;
+    height: 10px;
+    /* background-color: brown; */
+    
+}
+
+.buttondropdown{
+    position: relative;
+    right: 10px;
+    top: 0;
+    /* display: flex; */
+}
+
+.dropdown-content{
+   min-width: 140px;
+   border-radius: 4px;
+
+}
+/*  */
+/* .edit,.delete{
+    position: relative;
+    left:0;
+    top: 100%;
+    
+} */

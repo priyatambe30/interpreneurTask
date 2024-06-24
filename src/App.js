@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import Dashboard1 from "./components/AllPages/Dashboard1";
-import Analytics from "./components/AllPages/Analytics";
+import Analytics from "./components/AllPages/AnalyticsPages/Analytics";
 import Settings from "./components/AllPages/Settings";
 import Messages from "./components/AllPages/Messages";
 import Notification from "./components/AllPages/Notification";
@@ -14,39 +14,42 @@ import ImagesArray from "./components/AllPages/ImagesArray";
 function App() {
   const [loadComponent, setLoadComponent] = useState(<Dashboard1 />);
   const [img, setImg] = useState("");
-  const imgArr=[
-    { src:"./images/Category.png",
-    },
-    { src:"./images/Analytics.png",
-    },
-    { src:"./images/Invoice.png",
-    },
-    { src:"./images/Schedule.png",
-    },
-    { src:"./images/Calendar.png",
-    },
-    { src:"./images/Messages.png",
-    },
-    { src:"./images/Notification.png",
-    },
-    { src:"./images/Settings.png",
-    },
+  // const imgArr=[
+  //   { src:"./images/Category.png",
+  //   },
+  //   { src:"./images/Analytics.png",
+  //   },
+  //   { src:"./images/Invoice.png",
+  //   },
+  //   { src:"./images/Schedule.png",
+  //   },
+  //   { src:"./images/Calendar.png",
+  //   },
+  //   { src:"./images/Messages.png",
+  //   },
+  //   { src:"./images/Notification.png",
+  //   },
+  //   { src:"./images/Settings.png",
+  //   },
     
-  ];
+  // ];
 
   const btnArr = [
     {
       id: 1,
       label: "Dashboard",
-
+      src:"./images/Category.png",
+      
       btFun: () => {
         setLoadComponent(<Dashboard1 />);
-      },
+              },
+      
+      
     },
 
     {
       id: 2,
-      label: "Analytics",
+      label: "Analytics",src:"./images/Analytics.png",
       btFun: () => {
         // setLoadComponent(<AddHealthData />)
         setLoadComponent(<Analytics />);
@@ -55,7 +58,7 @@ function App() {
 
     {
       id: 3,
-      label: "Invoice",
+      label: "Invoice",src:"./images/Invoice.png",
       btFun: () => {
         // setLoadComponent(<AddHealthData />)
         setLoadComponent(<Invoice />);
@@ -64,7 +67,7 @@ function App() {
 
     {
       id: 4,
-      label: "Schedule",
+      label: "Schedule",src:"./images/Schedule.png",
       btFun: () => {
         // setLoadComponent(<AddHealthData />)
         setLoadComponent(<Schedule />);
@@ -73,7 +76,8 @@ function App() {
 
     {
       id: 5,
-      label: "Calender",
+    src:"./images/Calendar.png",
+      label: "Calender", 
       btFun: () => {
         // setLoadComponent(<AddHealthData />)
         setLoadComponent(<Calendar />);
@@ -82,7 +86,7 @@ function App() {
 
     {
       id: 6,
-      label: "Messages",
+      label: "Messages",src:"./images/Messages.png",
       btFun: () => {
         // setLoadComponent(<AddHealthData />)
         setLoadComponent(<Messages />);
@@ -91,7 +95,7 @@ function App() {
 
     {
       id: 7,
-      label: "Notification",
+      label: "Notification",src:"./images/Notification.png",
       btFun: () => {
         // setLoadComponent(<AddHealthData />)
         setLoadComponent(<Notification />);
@@ -100,7 +104,7 @@ function App() {
 
     {
       id: 8,
-      label: "Settings",
+      label: "Settings",src:"./images/Settings.png",
       btFun: () => {
         // setLoadComponent(<AddHealthData />)
         setLoadComponent(<Settings />);
@@ -117,9 +121,9 @@ function App() {
         <div className="logo">
           <img src="/images/Logo and company.png "></img>
         </div>
-        <div className="ImageContent flex flex-col space-x-2 gap-y-6 ">
+        {/* <div className="ImageContent flex flex-col space-x-2 gap-y-6 ">
           <ImagesArray imgArr={imgArr}/>
-        </div>
+        </div> */}
         <div className="lampBgImg   w-20 h-20" >
         {/* <img 
             src="/images/object (1).png"
@@ -133,7 +137,7 @@ function App() {
             src="/images/object.png"
             alt="object photo"
           ></img>
-          <button className="lampbtn">Upgrade Now</button>
+          <button className="lampbtn hover-bg-sky-500">Upgrade Now</button>
           </div>
           <div className="profile">
             <img className="w-10 h-10" src="/images/Profile photo.png"alt="profile photo" ></img>
@@ -145,6 +149,7 @@ function App() {
         
         
         <div className="loadComponent font-bold"> {loadComponent}</div>
+        {/* <div className="analyticsComponent"><Analytics/></div> */}
       </div>
     </>
   );

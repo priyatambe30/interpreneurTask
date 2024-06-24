@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.addcustomer-container{
+    position: relative;
+    left:200px;
+    top: -10px;
+    width: 300px;
+    height: 900px;
+    /* background-color: rgb(7, 7, 229); */
+}
+
+.User{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    /* background-color: brown; */
+    border-bottom: 1px solid rgb(203, 201, 201);
+}
+.AddCustomer{
+    position: relative;
+    left: 30px;
+    top: 0;
+
+}
+.closebtn{
+    position: relative;
+    left: 150px;
+    top: 0;
+
+}
+.cameraImg{
+    position: relative;
+    right: -30px;
+    top: 50px;
+}
+
+.userForm{
+    position: relative;
+    left: 0px;
+    top: 250px;
+    width: 230px;
+    height: 400px;
+    /* background-color: brown; */
+}
+.Gender{
+    width: 230px;
+    height: 30px;
+}
+.submitcustomer{
+    position: relative;
+    left: 0px;
+    top: 30px;
+    width: 230px;
+    height: 40px;
+    background-color:  rgba(96, 91, 255, 1);
+    border-radius: 10px;
+    color: white;
+
+}

@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.Analytics-Container {
+    position: absolute;
+    left:30px;
+    top: 0;
+    width: 650px;
+    height: 900px;
+    /* background-color: rgb(7, 7, 229); */
+    
+}
+.addcustBtn{
+   position: relative;
+   left: 390px;
+   top: 0;
+}
+.UserInfo{
+    position: absolute;
+    width: 320px;
+    height: 900px;
+    right: 10px;
+    top: 0;
+    /* background-color: rgb(123, 123, 248); */
+    
+}
+.UserProf{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    right: 70px;
+    top: 30px;
+    border-bottom: 1px solid rgb(93, 92, 92);
+    
+    
+}
+.JohnName{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 60px;
+    top: 100px;
+
+
+}
+.UserInfo1{
+    display: none;
+}
+.PositionJon{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    right: 50px;
+    top: 125px;
+    font-size: 12px;
+    color: rgb(84, 82, 82);
+
+}
+.UserImg{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 70px;
+    top: 10px;
+
+}
+/* .dropbtn1,.dropbtn2,.dropbtn4,.dropbtn3,.dropdown1,.dropdown2,.dropdown3,.dropdown4{
+    background-color: brown;
+    width: 160px;
+    position: relative;
+    top: 0;
+} */
+/* .dropbtn1,.dropbtn2,.dropbtn3,.dropbtn4{
+   
+    width: 160px;
+    position: relative;
+    top: 0;
+}
+.dropbtn1{ left: 0px; } 
+.dropbtn2{ left: 10px; } 
+.dropbtn3{ left: 0px; } 
+.dropbtn4{ left:20px ; }  */
+
+.ContactInfo{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    right: 70px;
+    top: 230px;
+    /* background-color: gray; */
+}
+.ContactDetails{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    font-size: 13px;
+    color: rgb(103, 102, 102);
+    border-bottom: 1px solid rgb(177, 174, 174);
+}
+/* .email{
+    position: relative;
+    left: 20px;
+    top: 0;
+    font-size: 12px;
+    
+} */
+.PerformanceChart{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 70px;
+    top: 400px;
+    
+
+}
+.ProgressChart{
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    right: 70px;
+    top: 630px;
+    /* background-color: cyan; */
+
+}

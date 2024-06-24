@@ -5,7 +5,7 @@
     width: 1200px;
     height: 1047px;
     background-color: rgba(250, 250, 251, 1);
-    ;
+    
 }
 
 .menu-table {
@@ -18,7 +18,7 @@
 .datepicker-container{
     
     position: relative;
-    left: 750px;
+    left: 780px;
     top: -10px;
     font-size: x-small;
     display: flex;
@@ -59,7 +59,7 @@
     height: 116px;
     position: relative;
     left: 30px;
-    top: 100px;
+    top: 60px;
 }
 
 .menu-image {
@@ -75,11 +75,11 @@
 }
 
 .report-container {
-    width: 600px;
+    width: 580px;
     height: 200px;
     position: absolute;
     left: 30px;
-    top: 280px;
+    top: 240px;
 }
 
 .reportImg {
@@ -96,7 +96,7 @@
     height: 150px;
     position: absolute;
     left: 650px;
-    top: 280px;
+    top: 240px;
 
 }
 
@@ -107,25 +107,53 @@
 }
 
 .ordertable-container{
-    width: 600px;
+    width: 580px;
     height: 300px;
     position: relative;
     left: 30px;
-    top: 450px;
-    /* background-color: blue; */
-    font-size: medium;
-
-}
-
-.topsellingproduct-container{
-    width: 380px;
-    height: 300px;
-    position: relative;
-    left: 650px;
-    top: 160px;
+    top: 400px;
     background-color: rgb(247, 242, 242);
     font-size: medium;
 
+}
+.Full-table{
+    width: 250px;
+    height: 250px;
+
+}
+/* .totalOrder{
+    background-color: rgba(38, 192, 226, 1);
+
+    color: cyan;
+    width: 4px;
+    height: 2px;
+    border-radius: 10px;
+} */
+
+.topsellingproduct-container{
+    width: 370px;
+    height: 300px;
+    position: relative;
+    left: 650px;
+    top: 110px;
+    background-color: rgb(247, 242, 242);
+    /* background-color: rgb(195, 3, 3); */
+    font-size: medium;
+
+}
+.products1{
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    left:30pxpx;
+    top: 50px;
+    border-bottom: 1px solid wheat;
+    /* background-color: blue; */
+
+}
+.products1:hover{
+    /* background-color: rgb(111, 111, 246); */
+    color: rgb(5, 5, 247);
 }
 
 
@@ -176,14 +204,14 @@ td, th {
   }
 
   .dropdown:hover .dropbtn {
-    background-color: rgb(189, 192, 248);
+    background-color: rgb(183, 186, 249);
   }
   
   .dropdown-content {
     outline: none;
     display: none;
     position: absolute;
-    background-color: #5e80f8;
+    background-color: #869ff9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(65, 64, 64, 0.2);
     z-index: 1;
@@ -191,17 +219,17 @@ td, th {
   
   .dropdown-content a {
     float: none;
-    color: black;
+    color: rgb(250, 245, 245);
     padding: 12px 16px;
-    text-decoration: none;
+    /* text-decoration:underline; */
     display: block;
     text-align: left;
     border: 10px;
   }
   
-  .dropdown-content a:hover {
+  /* .dropdown-content:hover {
     background-color: #ddd;
-  }
+  } */
   
   .dropdown:hover .dropdown-content {
     display: block;

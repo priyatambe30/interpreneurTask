@@ -4,7 +4,8 @@
     font-family: 'Verdana, Geneva, sans-serif,Nunito';
     /* font-size: 20px; */
     color: black;
-   max-width: 1366px;
+   /* width: 1366px; */
+   /* width: 100%; */
     height: 1047px;
     background-color: rgb(241, 237, 237);
     
@@ -24,7 +25,7 @@
 
   .loadComponent{
     position: absolute;
-    left: 190px;
+    left: 180px;
     top: 60px;
     /* font-size: 20px; */
     width: 1050px;
@@ -33,13 +34,24 @@
    
     
   }
+  /* .analyticsComponent{
+    position: absolute;
+    left: 190px;
+    top: 60px;
+      width: 1050px;
+    height: 950px;
+    background-color: rgb(248, 242, 234);
+
+  } */
   .Menubar{
     
-    color: blue;
+    /* color: blue; */
     position: relative;
-    left: 100px;
+    left: 70px;
     top: 150px;
     line-height: 40px;
+    width: 100px;
+    border-radius: 20px;
   }
  
 .ImageContent{
@@ -80,10 +92,13 @@
 .lampbtn{
   width: 100px;
   height: 30px;
-  background: rgba(96, 91, 255, 1);
+  background: #423cf7;
 
   color: white;
   border-radius: 10px;
   font-size: small;
+}
+.lampbtn:hover{
+  background-color: blueviolet;
 }
   

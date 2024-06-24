@@ -7,10 +7,10 @@
     ;
 }
 .buttonContent{
-    background-color: gray;
-    color: blue;
+    /* background-color: gray;
+    color: blue; */
     position: relative;
-    left: 100px;
+    left: 50px;
     top: 500px;
 }
 .menu-table{
