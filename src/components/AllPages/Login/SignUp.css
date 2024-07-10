@@ -1,0 +1,168 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+.main-signup-container{
+    position: relative;
+    left: 40px;
+    top: 0px;
+    width: 1000px;
+    height: 800px;
+    /* background-color:  rgb(160, 157, 157); */
+}
+.signup-container{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width: 1000px;
+    height: 750px;
+    background-color:  rgb(210, 206, 206);
+    /* background-color:  rgb(246, 3, 3); */
+}
+
+.signup-Inner-container{
+    position:relative ;
+    top: -15px;
+    left: -50px;
+    width: 480px;
+    height: 700px;
+    margin: auto;
+   
+    background-color:  rgb(216, 216, 219);
+
+}
+.logo2{
+    position:relative ;
+    top: -40px;
+    left: 40px;
+    width: 80px;
+    height: 100px; 
+
+}
+
+.signup-Logo{
+    position:relative ;
+    top: 50px;
+    left: 140px;
+    width: 150px;
+    height: 170px;  
+   
+
+}
+.social-button{
+    position:relative ;
+    top: 60px;
+    left: 90px;
+    /* width: 100px; */
+    height: 20px;
+    /* border-bottom: 1px solid gray;  */
+     /* border-radius: 10px;
+     background-color: rgb(202, 197, 197); */
+}
+
+hr.solid{
+    width: 250px;
+    border-top: 1px solid gray;
+}
+
+.userLoginForm{
+    position:relative ;
+    top: 90px;
+    left: 90px;
+    /* width: 100px; */
+    height: 20px;
+
+}
+.sociallogoimage{
+    position:relative ;
+    top: 7px;
+    left:2px;
+}
+.eyesymbool{
+    position:relative ;
+    top: -30px;
+    left:220px;
+}
+
+.checkboxData{
+    position:relative ;
+    top: 0px;
+    /* left:2px; */
+
+}
+/* .resetpass{
+    position:relative ;
+    top: 0px;
+ left: 90px;
+ color:rgba(96, 91, 255, 1);
+
+} */
+
+.bottomsection{
+    position:relative ;
+    top: 40px;
+ left: 30px;
+
+}
+.submitcustomer{
+    position:relative ;
+    top: 30px;
+ left: 10px;
+
+}
+.newacc{
+    color:rgba(96, 91, 255, 1);
+}
+.resetpass:hover,.newacc:hover{
+    color:rgb(141, 138, 244);
+}
+
+
+
+.right-signup-container1{
+    /* position: relative;
+    left: 500px;
+    top:0px;
+    width: 900px;
+    height: 950px;
+    background-color:  rgb(33, 2, 2); */
+}
+
+.image-container1{
+    position: relative;
+    left: -50px;
+    top: 300px;
+    width: 400px;
+    height: 350px;
+    
+}
+
+
+
+/* code for divider */
+.divider {
+    position: relative;
+    top: -40px;
+    left: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #979595;
+    margin: 0 10px;
+  }
+  
+  .divider-text {
+    white-space: nowrap;
+    color: #0e0d0d; /* Adjust color as needed */
+  }
+  

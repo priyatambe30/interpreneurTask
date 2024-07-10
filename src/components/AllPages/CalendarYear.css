@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* right-schedule-container */
+.calendar-conatiner{
+
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(199, 199, 234);
+    width: 580px;
+    height: 700px;
+    text-align: center;
+        padding: 20px;
+}
+
+  
+  .calendarYear {
+    background-color: #ded7d7;
+    padding: 10px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    font: 8px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+  }
+
+  .innercalendar{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 170px;
+    margin: 0 auto;
+    font: 5px;
+    background-color: #ded7d7;
+    padding:0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+    margin: 0 auto;
+    
+  }
+
+
+
+
+
+  .calendar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    
+  }
+  
+  header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+   h3 {
+    font-size: 10px;
+  }
+  
+  .days1 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0px;
+    font-size: 6px;
+    line-height: 1.25em;
+  }
+  
+  .day-name1, .day1 {
+    padding: 10px 0;
+  }
+  
+  .day-name1 {
+    font-weight: bold;
+    background: #f0f0f0;
+    border-radius: 2px;
+    font-size: 6px;
+    line-height: 1.25em;
+  }
+  
+  .day1 {
+    background: #f9f9f9;
+    border-radius: 4px;
+    padding: 5px;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 10px;
+  }
+  
+  .day.prev-month, .day.next-month {
+    color: #ccc;
+  }
+  
+  .date {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  .more {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+ 

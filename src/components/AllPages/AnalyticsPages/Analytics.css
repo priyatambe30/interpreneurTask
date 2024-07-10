@@ -4,17 +4,18 @@
 
 .Analytics-Container {
     position: absolute;
-    left:30px;
-    top: 0;
+    left:210px;
+    top: 110px;
     width: 650px;
-    height: 900px;
-    /* background-color: rgb(7, 7, 229); */
+    height: 800px;
+    background-color: rgb(218, 218, 221);
     
 }
 .addcustBtn{
    position: relative;
    left: 390px;
    top: 0;
+   margin-bottom: 20px;
 }
 .UserInfo{
     position: absolute;

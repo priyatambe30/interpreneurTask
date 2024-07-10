@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.AccountConfirm-container{
+    position: relative;
+    left: 0;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(221, 219, 216);
+    margin: auto;
+
+}
+
+.Inner-AccountConfirm-container{
+
+    position: relative;
+    left: 0;
+    top: 20px;
+    width: 450px;
+    height: 450px;
+    background-color: rgb(223, 223, 221);
+    margin: auto;
+
+}
+.logoimages{
+    position: relative;
+    left: 0;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    /* background-color: aqua; */
+
+}
+.logoImage1{
+    position: relative;
+    left: 0;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+}
+.logoImage2{
+    position: relative;
+    left: 0;
+    top: -90px;
+    width: 140px;
+    height: 80px;
+    margin: auto;
+
+}
+.logoImage3{
+    position: relative;
+    left: 0;
+    top: -110px;
+    width: 60px;
+    height: 50px;
+    margin: auto;
+
+}
+.accountcreatedText{
+    
+    position: relative;
+    left:60px;
+    top: 70px;
+    font-size: 22px;
+    
+}
+
+.GoToHome{
+    position: relative;
+    left:0px;
+    top: 100px;
+    font-size: 15px;
+}
+
+.GoToHomebtn{
+    background-color:  rgba(96, 91, 255, 1);
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.resetyourpass:hover{
+    background-color:  rgb(64, 58, 248);
+    
+}

@@ -2,9 +2,13 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .dashboard-layout {
-    width: 1200px;
-    height: 1047px;
-    background-color: rgba(250, 250, 251, 1);
+    position: relative;
+    left: -1020px;
+    top: 90px;
+    width: 1000px;
+    height: 860px;
+    /* background-color: rgba(250, 250, 251, 1); */
+    background-color: rgb(225, 225, 228);
     
 }
 
@@ -18,21 +22,31 @@
 .datepicker-container{
     
     position: relative;
-    left: 780px;
-    top: -10px;
+    left: 650px;
+    top: 10px;
     font-size: x-small;
     display: flex;
-    
-    
-  
-}
-.datepicker{
-    display: block;
-  justify-content: center;
-  align-items: center;
+    height: 20px;
+    width: 250px;  
   
 }
 
+.datepicker{
+    display: block;
+  justify-content: center;
+  align-items: center;  
+}
+.viewProductbtn{
+    border-radius: 10px;
+    height: 30px;
+    width: 160px;
+    background-color: rgb(93, 93, 247);
+    color: white;
+}
+.viewProductbtn:hover{
+    background-color: rgb(72, 72, 247);
+
+}
 .btn,
 .tr-table {
     color: rgb(67, 158, 248);
@@ -54,14 +68,22 @@
 }
 
 
-.menu-products {
-    width: 1000px;
-    height: 116px;
+.menu-products1 {
+    width: 950px;
+    height: 80px;
     position: relative;
-    left: 30px;
+    left: -250px;
     top: 60px;
+    /* background-color: brown; */
 }
+.products{
+    width: 200px;
+    height: 90px;
+    position: relative;
+    left: 0px;
+    top: 0px;
 
+}
 .menu-image {
     background-size: cover;
     background-position: center;
@@ -74,12 +96,12 @@
     color: rgb(6, 67, 248);
 }
 
-.report-container {
+.dashboard-report-container {
     width: 580px;
     height: 200px;
     position: absolute;
-    left: 30px;
-    top: 240px;
+    left: 20px;
+    top: 200px;
 }
 
 .reportImg {
@@ -91,12 +113,12 @@
     width: 380px;
 }
 
-.analytics-container {
+.dashboard-analytics-container {
     width: 380px;
     height: 150px;
     position: absolute;
-    left: 650px;
-    top: 240px;
+    left: 610px;
+    top: 200px;
 
 }
 
@@ -106,37 +128,37 @@
 
 }
 
-.ordertable-container{
-    width: 580px;
+.dashboard-ordertable-container{
+    width: 1100px;
     height: 300px;
     position: relative;
-    left: 30px;
-    top: 400px;
-    background-color: rgb(247, 242, 242);
+    left: -1200px;
+    top: 520px;
+    /* background-color: rgb(158, 7, 7); */
     font-size: medium;
 
 }
 .Full-table{
-    width: 250px;
+    width: 260px;
     height: 250px;
 
 }
-/* .totalOrder{
+.totalOrder{
     background-color: rgba(38, 192, 226, 1);
 
     color: cyan;
-    width: 4px;
-    height: 2px;
+    width: 260px;
+    height: 250px;
     border-radius: 10px;
-} */
+}
 
 .topsellingproduct-container{
-    width: 370px;
+    width: 380px;
     height: 300px;
     position: relative;
-    left: 650px;
-    top: 110px;
-    background-color: rgb(247, 242, 242);
+    left: 30px;
+    top: 20px;
+    background-color: rgb(249, 236, 236);
     /* background-color: rgb(195, 3, 3); */
     font-size: medium;
 
@@ -147,7 +169,7 @@
     position: absolute;
     left:30pxpx;
     top: 50px;
-    border-bottom: 1px solid wheat;
+    /* border-bottom: 1px solid wheat; */
     /* background-color: blue; */
 
 }
@@ -158,27 +180,37 @@
 
 
 /* css for table */
-.ordertable{
-    background-color: rgb(247, 242, 242);
+.dashboard-ordertable{
+    /* background-color: rgb(219, 210, 210); */
     border:solid rgb(204, 195, 195) 1px;
 }
+/* .dashboard-ordertable{
+    width: 970px;
+    height: 300px;
+    position: relative;
+    left:0px;
+    top: 0px;
+
+} */
 
 .tbody,
 .Full-table{
-    width: 100%;
+    width: 560px;
     height: 220px;
     font-size:9px;
     
     /* background-color: chartreuse; */
-    text-align: center;
+    text-align: left;
 }
 td, th {
-    border: 1px solid #efebeb;
+    border: 1px solid #e6e3e3;
     text-align: center;
     padding: 8px;
+     width: 100px;
+    height: 10px; 
   }
   
-  tr:nth-child(even) {
+  tr {
     background-color: #efebeb;
   }
 .totalorder{
@@ -219,7 +251,7 @@ td, th {
   
   .dropdown-content a {
     float: none;
-    color: rgb(250, 245, 245);
+    /* color: rgb(250, 245, 245); */
     padding: 12px 16px;
     /* text-decoration:underline; */
     display: block;
@@ -228,7 +260,7 @@ td, th {
   }
   
   /* .dropdown-content:hover {
-    background-color: #ddd;
+    background-color: #a74c4c;
   } */
   
   .dropdown:hover .dropdown-content {

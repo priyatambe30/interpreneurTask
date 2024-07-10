@@ -3,12 +3,16 @@ import "./Analytics.css";
 import AllUserInfo from "./AllUserInfo";
 import AddCustomer from "./AddCustomer";
 import UserData from "./UserData";
+import Menubar2 from "../Menubar2";
+import { useNavigate } from "react-router-dom";
+
 // import images from './public/images'
 
 const Analytics = () => {
 
    const [user,setUser]=useState(<UserData/>);
-
+    const navigate = useNavigate();
+    
    const handleclick=()=>{
     setUser(!user);
 
@@ -21,7 +25,8 @@ const Analytics = () => {
       phone: "+33757005467",
       gender: "male",
       src: "./images/Image1.png",
-      color:"#FF5733",
+      color:"#e5e5ff",
+      textcolor:" #3232ff",
     },
     {
       id: 10,
@@ -30,6 +35,9 @@ const Analytics = () => {
       phone: "++33757005467" + "   ",
       gender: "female" + "   ",
       src: "./images/Image11.png" + "   ",
+      color: "#FFE4B3",
+      textcolor:" #FF8F6B",
+
     },
     {
       id: 3,
@@ -37,6 +45,8 @@ const Analytics = () => {
       email: "jhondeo24823@.com" + "   ",
       phone: "++63475700546" + "   ",
       gender: "male" + "   ",
+      color:"#e5e5ff",
+      textcolor:" #3232ff",
       src: "./images/Image3.png" + "   ",
     },
     {
@@ -46,6 +56,8 @@ const Analytics = () => {
       phone: "++33757005467" + "   ",
       gender: "male" + "   ",
       src: "./images/Image4.png" + "   ",
+      color:"#e5e5ff",
+      textcolor:" #3232ff",
     },
     {
       id: 5,
@@ -53,6 +65,9 @@ const Analytics = () => {
       email: "bethanyjackson5@.com" + "   ",
       phone: "++33757005467" + "   ",
       gender: "female" + "   ",
+      color: "#FFE4B3",
+      textcolor:" #FF8F6B",
+
       src: "./images/Image5.png" + "   ",
     },
     {
@@ -61,6 +76,8 @@ const Analytics = () => {
       email: "christinehuston4@.com" + "   ",
       phone: "+33757005467",
       gender: "male",
+      color:"#e5e5ff",
+      textcolor:" #3232ff",
       src: "./images/Image7.png" + "   ",
     },
 
@@ -70,6 +87,8 @@ const Analytics = () => {
       email: "annejacob2@ummoh.com" + "   ",
       phone: "++33757005467" + "   ",
       gender: "male" + "   ",
+      color:"#e5e5ff",
+      textcolor:" #3232ff",
       src: "./images/Image8.png" + "   ",
     },
     {
@@ -78,6 +97,8 @@ const Analytics = () => {
       email: "jamesmullican5346@.com" + "   ",
       phone: "++33757005467" + "   ",
       gender: "male" + "   ",
+      color:"#e5e5ff",
+      textcolor:" #3232ff",
       src: "./images/Image9.png" + "   ",
     },
     {
@@ -86,6 +107,8 @@ const Analytics = () => {
       email: "robertbacins4182@.com" + "   ",
       phone: "++33757005467" + "   ",
       gender: "male" + "   ",
+      color:"#e5e5ff",
+      textcolor:" #3232ff",
       src: "./images/Image10.png" + "   ",
     },
     {
@@ -94,6 +117,8 @@ const Analytics = () => {
       email: "john carilo182@.com" + "   ",
       phone: "++33757805467" + "   ",
       gender: "male" + "   ",
+      color:"#e5e5ff",
+      textcolor:" #3232ff",
       src: "./images/Image2.png" + "   ",
     },
   ];
@@ -108,22 +133,24 @@ const Analytics = () => {
   // }
   return (
     <>
+      <div className="flex">
+        <div><Menubar2/></div>
       <div className="Analytics-Container  ">
+      
         {/* header */}
         <div className="  flex flex-row">
           <div className=" flex font-bold ">Customer List</div>
           <div>
-            <button
-              className="addcustBtn font-thin  bg-sky-400 hover:bg-sky-500 rounded-lg text-black text-center w-40 h-10  gap-8"
+            <button id="toggleButton"
+              className="addcustBtn static font-thin  bg-sky-400 hover:bg-sky-500 rounded-lg text-black text-center w-40 h-10  gap-8"
               onClick={handleclick}> + Add Customer
-              {user ?<UserData/>: <AddCustomer/>}
-            
+              
               
             </button>
-            {/* {user ||(<div>
-              <AddCustomer/>
-              <UserData/>
-            </div>)} */}
+            {user ?<AddCustomer/>:<UserData/> }
+
+            
+            
           </div>
         </div>
 
@@ -135,7 +162,7 @@ const Analytics = () => {
               Name
               <i className="fa fa-caret-down"></i>
             </button>
-            <div className="dropdown-content text-[10px] hover:bg-sky-200 text-sky-400">
+            <div className="dropdown-content text-[10px] hover:bg-sky-600 text-sky-400">
               <a href="#">First Name</a>
               <a href="#">Last Name</a>
             </div>
@@ -146,7 +173,7 @@ const Analytics = () => {
               Email
               <i className="fa fa-caret-down"></i>
             </button>
-            <div className="dropdown-content text-[13px] hover:bg-sky-200 text-sky-400">
+            <div className="dropdown-content items-center text-[10px] hover:bg-sky-600 text-sky-400">
               <a href="#">Email 1</a>
               <a href="#">Email 2</a>
             </div>
@@ -157,7 +184,7 @@ const Analytics = () => {
               Phone Number
               <i className="fa fa-caret-down"></i>
             </button>
-            <div className="dropdown-content text-[10px] hover:bg-sky-200 text-sky-400">
+            <div className="dropdown-content text-[10px] hover:bg-sky-600 text-sky-400">
               <a href="#">Phone 1</a>
               <a href="#">Phone 2</a>
             </div>
@@ -168,8 +195,8 @@ const Analytics = () => {
               Gender
               <i className="fa fa-caret-down"></i>
             </button>
-            <div className="dropdown-content text-[10px] hover:bg-sky-200 text-sky-400">
-              <a href="#">Male</a>
+            <div className="dropdown-content text-[10px] hover:bg-sky-600 text-sky-400">
+              <a href="#" className="">Male</a>
               <a href="#">Female</a>
             </div>
           </div>
@@ -189,6 +216,8 @@ const Analytics = () => {
       {/* <div id="addcustomer" className="addcustomer">
         <AddCustomer />
       </div> */}
+
+</div>
     </>
   );
 };

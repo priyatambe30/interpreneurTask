@@ -1,8 +1,9 @@
 import React from 'react'
+import Menubar2 from "./Menubar2";
 
 const Notification = () => {
   return (
-    <div>Notification</div>
+    <div><div><Menubar2/></div></div>
   )
 }
 

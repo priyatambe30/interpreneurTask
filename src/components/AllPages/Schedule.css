@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.schedule-container1{
+    position: relative;
+    left: -1050px;
+    top: 80px;
+
+    width: 1050px;
+    height: 800px;
+    background-color:white
+
+}
+.addnewbtn{
+    position: relative;
+    left: 790px;
+    top: 5px;
+    border: 1px solid;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgba(96, 91, 255, 1);
+
+}
+
+
+/* left-schedule-container */
+.left-schedule-container{
+    width: 350px;
+    height: 750px;
+    position: relative;
+    left:-240px;
+    top: 30px;
+    
+    /* background-color: rgb(195, 148, 240); */
+}
+.schedule-box{
+    width: 320px;
+    height: 730px;
+    position: relative;
+    left:15px;
+    top: 10px;
+    
+    background-color: rgb(238, 232, 232)
+
+}
+.searchbtn{
+    position: relative;
+    left: 10px;
+    top: 0px;
+    width: 300px;
+    height: 40px;
+    font: bold;
+    padding-top: 3px;
+    border-radius: 10px;
+    background-color: rgb(228, 226, 226);
+    
+
+}
+
+.createschedulebtn{
+    position: relative;
+    left:10px;
+    top: 30px;
+    border: 1px solid;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(96, 91, 255, 1);
+
+}
+.myschedulebtn{
+
+    position: relative;
+    left:10px;
+    top: 630px;
+    border: 1px solid;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgba(96, 91, 255, 1) ;
+    background-color: rgb(199, 198, 247);
+}
+
+.left-chatting-list1{
+    position: relative;
+    left: -210px;
+    top: 50px;
+    width: 300px;
+    height: 50px;
+    padding-bottom: 10px;
+    background-color: rgb(211, 208, 208);
+    /* background-color: chartreuse; */
+}
+
+
+
+/* right-schedule-container */
+.right-schedule-container{
+    background-color: rgb(228, 233, 233);
+    height: 730px;
+    width: 650px;
+   
+    position: relative;
+    left:-200px;
+    top: 50px;
+}
+.dropdown-data1{
+    /* background-color: chocolate; */
+    position: relative;
+    left:-30px;
+    top: -30px;
+    height: 70px;
+    width: 650px;
+}
+.schedule-dropdown{
+    height: 70px;
+    width: 650px;
+   
+    position: relative;
+    left:40px;
+    top: -10px;
+
+}
+
+.right-schedule{
+    position: relative;
+    left:30px;
+    top: 20px;
+    width: 700px;
+    height: 720px;
+    
+
+}
+.table-data{
+    position: relative;
+    left:0px;
+    top: -680px;
+    align-items: center;
+    background-color: rgb(247, 244, 241)
+}
+.edit-btn {
+    position: relative;
+    left:10px;
+    top: -20px;
+
+}
+
+.dlt-btn{
+    position: relative;
+    left:10px;
+    top: -20px;
+}

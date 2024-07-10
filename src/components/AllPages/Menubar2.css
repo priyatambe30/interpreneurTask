@@ -1,0 +1,482 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* .dashboard-layout{
+    width:1200px ;
+    height:800px ;
+    background-color:rgb(218, 218, 235);
+    ;
+} */
+.buttonContent1{
+     background-color: rgb(218, 213, 213); 
+    /* color: blue;  */
+    position: relative;
+    left: 20px;
+    top: 50px;
+    width: 1300px;
+    height: 900px;
+}
+.menu-table{
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+    width: 110px;
+    margin-left: 41px;
+}
+
+
+    .btn, .tr-table {
+        color: rgb(67, 158, 248);
+        border: none;
+        color: black;
+        padding: 12px 16px;
+        cursor: pointer;
+        font-size:small;
+}
+/* Darker background on mouse-over */
+.btn:hover,.products:hover {
+    color: rgb(6, 67, 248);
+  }
+  .tr-table:hover{
+    color: rgb(6, 67, 248);
+  }
+
+/* .menuimage{
+  min-height:0px;
+  max-height:100px;
+} */
+.menu-box {
+  display: none;
+}
+
+.menu-box.visible {
+  display: block;
+  
+}
+
+#menu-itemsss {
+  padding: 5px ;
+}
+
+
+.menu{
+    position: relative;
+    left: 60px;
+    top: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100px;
+
+}
+.profile{
+    position: relative;
+    left: 10px;
+    top: 600px;
+}
+.menu-products{
+    width:1050px ;
+    height:116px ;
+    position: relative;
+    left: -35px;
+    top: 100px;
+}
+.menu-image{
+    background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 20px;
+            width: 30px;
+}
+.menu-image:hover{
+    color: rgb(6, 67, 248);
+  }
+.report-container{
+    width: 650px;
+    height: 400px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    left:150px;
+    top:250px;
+}
+.analytics-container{
+    width: 390px;
+    height:400px;
+    background-color: rgb(11, 80, 57);
+    position: absolute;
+    left:820px;
+    top:250px;
+
+}
+.vector{
+    position: relative;
+    left:100px;
+    top:00px;
+
+}
+
+/* .................................. */
+.app-header {
+    font-weight: 700px;
+    font-size: 24px;
+    color: black;
+  }
+  .logo1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: 80px;
+   
+        
+  }
+
+  .loadComponent{
+    position: relative;
+    left: 120px;
+    top: -620px;
+    /* font-size: 20px; */
+    width: 1150px;
+    height: 1000px;
+    /* background-color: rgb(240, 141, 12); */
+   
+    
+  }
+  /* .analyticsComponent{
+    position: absolute;
+    left: 190px;
+    top: 60px;
+      width: 1050px;
+    height: 950px;
+    background-color: rgb(248, 242, 234);
+
+  } */
+  .Menubar2{
+    
+    /* color: blue; */
+    position: relative;
+    left: 20px;
+    top: 130px;
+    line-height: 40px;
+    width: 100px;
+    border-radius: 20px;
+  }
+ 
+.ImageContent{
+  position: relative;
+  left: 20px;
+  top: -85px;
+  width: 40px;
+  height: 40px;
+  
+}
+.profile1{
+  position: absolute;
+  left: 20px;
+  top: 740px;
+  width: 170px;
+  height: 100px;
+  /* background-color: aqua; */
+  font-size: xx-small;
+  color: black;
+  display:flex;
+}
+.lamp-container{
+  position: relative;
+  left: 25px;
+  top: 30px;
+
+}
+.lampBgImg{
+  position: relative;
+  left:10px;
+  top: 150px;
+  width: 120px;
+  height: 130px;
+  border-radius: 15px;
+  background: rgb(221, 220, 244);
+
+}
+.lampbtn{
+  width: 110px;
+  height: 30px;
+  background: #423cf7;
+  position: relative;
+  left:-10px;
+  top: 0px;
+  color: white;
+  border-radius: 10px;
+  font-size: small;
+}
+.lampbtn:hover{
+  background-color: blueviolet;
+}
+  
+
+/* badge */
+.message-badge{
+  position: relative;
+  top: 0px;
+  right: -10px;
+  padding: 0px 5px;
+ /* width: 0px;
+ height: 20px; */
+  border-radius: 60%;
+  background-color: red;
+  color: white;
+  font-size: 13px;
+}
+
+
+
+/* dashboard code */
+
+
+
+
+/*   
+  .dashboard-layout {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 800px;
+    height: 900px;
+   
+    background-color: rgb(225, 225, 228);
+    
+}
+
+.menu-table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+    width: 100px;
+    margin-left: 41px;
+}
+.datepicker-container{
+    
+    position: relative;
+    left: 500px;
+    top: 10px;
+    font-size: x-small;
+    display: flex;
+    height: 20px;
+    width: 200px;
+    
+    
+  
+}
+.datepicker{
+    display: block;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn,
+.tr-table {
+    color: rgb(67, 158, 248);
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-size: small;
+}
+
+
+.btn:hover,
+.products:hover {
+    color: rgb(6, 67, 248);
+}
+
+.tr-table:hover {
+    color: rgb(6, 67, 248);
+}
+
+
+.menu-products1 {
+    width: 750px;
+    height: 80px;
+    position: relative;
+    left: -250px;
+    top: 60px;
+    
+}
+.products{
+    width: 180px;
+    height: 120px;
+    position: relative;
+    left: -10px;
+    top: 0px;
+
+}
+.menu-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 30px;
+}
+
+.menu-image:hover {
+    color: rgb(6, 67, 248);
+}
+
+.dashboard-report-container {
+    width: 580px;
+    height: 200px;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+.reportImg {
+    width: 450px;
+    height: 300px;
+}
+.analyticsImg{
+    height: 300px;
+    width: 300px;
+}
+
+.dashboard-analytics-container {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 480px;
+    top: 200px;
+
+}
+
+.AnalyticsReport {
+    width: 350px;
+    height: 200px;
+
+}
+
+.dashboard-ordertable-container{
+    width: 800px;
+    height: 350px;
+    position: relative;
+    left: -1000px;
+    top: 520px;
+   
+    font-size: medium;
+
+}
+.Full-table{
+   
+    position: relative;
+    top: 0;
+    left: 0px;
+
+}
+.totalOrder{
+    background-color: rgba(38, 192, 226, 1);
+
+    color: cyan;
+    width: 260px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.topsellingproduct-container{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    background-color: rgb(249, 236, 236);
+    
+    font-size: medium;
+
+}
+.products1{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    left:30pxpx;
+    top: 50px;
+    
+
+}
+.products1:hover{
+    
+    color: rgb(5, 5, 247);
+}
+
+
+
+.dashboard-ordertable{
+   
+    border:solid rgb(204, 195, 195) 1px;
+}
+
+
+.tbody,
+.Full-table{
+    width: 0px;
+    height: 230px;
+    font-size:9px;
+    
+   
+    text-align: left;
+}
+td, th {
+    border: 1px solid #e6e3e3;
+    text-align: center;
+    padding: 8px;
+     width: 100px;
+    height: 10px; 
+  }
+  
+  tr {
+    background-color: #efebeb;
+  }
+.totalorder{
+    width: 5px;
+    height: 2px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 10px;  
+    border: 10px;
+    
+    color: rgb(18, 18, 18);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: rgb(183, 186, 249);
+  }
+  
+  .dropdown-content {
+    outline: none;
+    display: none;
+    position: absolute;
+    background-color: #869ff9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(65, 64, 64, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    
+    padding: 12px 16px;
+    
+    display: block;
+    text-align: left;
+    border: 10px;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */

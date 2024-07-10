@@ -31,3 +31,31 @@
     top: 100%;
     
 } */
+
+.edit:hover{
+    color: black;
+    /* background-color: white; */
+}
+
+.delete{
+    background-color: rgb(249, 66, 66);
+}
+
+.gender1 {
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+  }
+/* .gender.male{
+background-color:rgb(185, 185, 246) ;
+color: blue;
+}
+
+.gender.female{
+    background-color:rgb(247, 170, 170) ;
+color: rgb(202, 6, 6);
+} */
+.span-gender-color{
+padding: 20px;
+}

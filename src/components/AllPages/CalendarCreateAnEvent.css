@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Popup.css */
+
+/* .CalendarCreateAnEvent-container{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+} */
+.popup-container {
+    position: fixed;
+    top: 0px;
+    left: 350px;
+    width: 850px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Apply backdrop blur effect */
+  .popup-container {
+    backdrop-filter: blur(1px);
+  }
+  .event-type{
+    /* background-color: rgb(246, 224, 184); */
+    color: black;
+    width: 250px;
+    height: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .eventbtn,.taskbtn2{ 
+   background-color: rgb(246, 224, 184);
+  border: 1px solid rgb(242, 126, 2);
+  border-radius: 10px;
+    width: 50px;
+    height: 30px;
+     }
+     .reminderbtn{
+      border: 1px solid rgb(242, 126, 2);
+       background-color: rgb(246, 224, 184);
+      
+      border-radius: 10px;
+      width: 80px;
+      height: 30px;
+       }
+
+     .eventbtn:hover,
+     .taskbtn2:hover{
+      width: 50px;
+      border-radius: 10px;
+    background-color: chocolate;
+    color: white;
+     }
+     .reminderbtn:hover{
+      width: 80px;
+      border-radius: 10px;
+    background-color: chocolate;
+    color: white;
+
+     }
+     .addtitle{
+      position: relative;
+      left: 0;
+      top:20px;
+      width: 400px;
+      height: 30px;
+      border-radius: 10px;
+      background-color: rgb(238, 233, 233);
+    color: rgb(217, 212, 212);
+    font-size: small;
+    
+
+     }
+     .datetime-container{
+      position: relative;
+      left: 0;
+      top:30px;
+      width: 400px;
+      height: 90px;
+      border-radius: 10px;
+      background-color: rgb(238, 233, 233);
+    color: rgb(217, 212, 212);
+    font-size: small;
+
+     }
+     .adddate{
+      position: relative;
+      left: 0px;
+      top:5px;
+      width: 400px;
+      height: 30px;
+      border-radius: 10px;
+      background-color: rgb(238, 233, 233);
+    color: rgb(217, 212, 212);
+    font-size: small;
+     }
+
+     .timediv{
+      position: relative;
+      left: 0px;
+      top:10px;
+      width: 400px;
+      height: 30px;
+      border-radius: 10px;
+      background-color: rgb(238, 233, 233);
+    color: rgb(217, 212, 212);
+    font-size: small;
+     }
+
+    .timezonelbl{
+      position: relative;
+      left: 40px;
+      top:-20px;
+      width: 400px;
+      height: 30px;
+      border-radius: 10px;
+   
+    /* color: rgb(217, 212, 212); */
+    font-size: small;
+
+    }
+    .peoplelocation-btn{
+      position: relative;
+      left: 0px;
+      top:0px;
+      
+    font-size: small;
+
+    }
+    .addpeople{
+      background-color:  #605BFF;
+      width: 150px;
+      height: 30px;
+      border-radius: 10px;
+    color: rgb(217, 212, 212);
+
+    }
+    .addpeopleImg{
+      position: relative;
+      left: 5px;
+      top:20px;
+      width: 12px;
+      height: 12px;
+
+    }
+
+    .addlocation{
+      color:  #605BFF;
+      width: 150px;
+      height: 30px;
+      border-radius: 10px;
+      background-color: rgb(238, 233, 233);
+
+    }
+     .addlocationImg{
+      position: relative;
+      left: 5px;
+      top:20px;
+      width: 12px;
+      height: 12px;
+     }
+     .johndeo{
+      position: relative;
+      left: 5px;
+      top:20px;
+      background-color: rgb(238, 233, 233);
+      border-radius: 10px;
+     }
+
+     .saveclose-btngrp{
+      position: relative;
+      left:-30px;
+      top:-50px;
+     }
+     .closebtn1{
+      position: relative;
+      left:250px;
+      top:100px;
+      background-color: rgb(238, 233, 233);
+      color: #605BFF;
+      border-radius: 10px;
+      width: 70px;
+      height: 30px;
+     }
+     .savebtn{
+      position: relative;
+      left:250px;
+      top:100px;
+      background-color: #605BFF;
+      color: rgb(238, 233, 233);
+      border-radius: 10px;
+      width: 70px;
+      height: 30px;
+     }
+     .closebtn:hover{
+      color: rgb(238, 233, 233);
+      background-color: #605BFF;
+
+     }
+     .savebtn:hover{
+      background-color: rgb(238, 233, 233);
+      color: #605BFF;
+     }
+     .closeimgBtn:hover{
+      color: rgb(238, 233, 233);
+      background-color: #f2a375;
+      /* width: 35px;
+      height: 35px; */
+
+     }

@@ -1,0 +1,35 @@
+
+
+.login-container{
+    position: relative;
+    left: 0;
+    top: 0px;
+    width: 1200px;
+    height: 1112px;
+    /* background-color:  rgb(249, 123, 123); */
+    /* background-color:  rgb(246, 3, 3); */
+}
+
+.inner-login-container{
+    width: 480px;
+    height: 1000px;
+    /* background-color:  rgb(113, 8, 8); */
+
+}
+
+.right-login-container{
+    position: relative;
+    left: 0;
+    top:0px;
+    width: 700px;
+    height: 1000px;
+    /* background-color:  rgb(33, 2, 2); */
+}
+
+.image-container{
+    position: relative;
+    left: 180px;
+    top: 114px;
+    width: 454px;
+    height: 539px;
+}

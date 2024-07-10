@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.main-container{
+    position: relative;
+    left: -1010px;
+    top: 100px;
+    /* background-color: rgb(225, 225, 231); */
+    width: 1010px;
+    height: 800px;
+}
+.header-container1{
+    /* background-color: rgb(241, 244, 244); */
+    position: relative;
+    left:20px;
+    top: 0;    
+    width: 1010px;
+    height: 50px;
+}
+.subheader-container1{
+    background-color: rgb(226, 234, 234);
+     position: relative;
+    left: -310px;
+    top: 60px;    
+    width: 1000px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.taskbtn{
+    position: relative;
+    left:750px;
+    top: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: rgba(96, 91, 255, 1);
+   border-radius: 10px;
+   color: white;
+
+}
+.searchbox{
+    position: relative;
+    left: 630px;
+    top: 10px;
+    width: 100px;
+    height: 50px;
+   
+   border-radius: 10px;
+   
+   text-align: center;
+}
+.searchbtncalendar{
+    position: relative;
+    left: 80px;
+    top: -25px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: rgb(9, 11, 12);
+}
+
+/* left container */
+.left-container1{
+    position: relative;
+    left: -670px;
+    top:110px;    
+    width: 330px;
+    height: 800px;
+    /* background-color: chartreuse; */
+
+}
+
+.list-container4{
+    position: relative;
+    left:30px;
+    top: 10px;
+    width: 950px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(207, 207, 208);
+}
+
+
+.arrow-symbol{
+    position: relative;
+    left:170px;
+    top: 0px;
+}
+.seemorebtn{
+    position: relative;
+    left:820px;
+    top: 10px;
+}
+.list-para{
+    position: relative;
+    left:20px;
+    top: 10px;
+}
+.table-container{
+    position: relative;
+    left:20px;
+    top: 30px;
+    width: 920px;
+
+}
+th,td{
+    width: 130px;
+}
+.pendinglbl{
+    width: 150px;
+    height: 1050px;
+    border-radius: 10px;
+    background-color: rgb(229, 58, 58);
+}
+
+.donelbl{
+    width: 150px;
+    height: 1050px;
+    border-radius: 10px;
+    background-color: green;
+    
+
+}
+.runninglbl{
+
+   content: icon;
+    border-radius: 10px;   
+    background-color: rgb(99, 8, 245);
+}
+
+
+.actionbtn{
+    position: relative;
+    left: 0;
+    top: -10px;
+    /* background-color: rgb(18, 201, 8); */
+    /* width: 100px;
+    height: 30px; */
+}
+
+.actionbtn1{
+    position: relative;
+    left:10px;
+    top: -5px;
+    /* background-color: rgb(18, 201, 8); */
+    width: 10px;
+    height: 10px;
+}
+
+.actionbtn2{
+    position: relative;
+    left: 20px;
+    top:-5px;
+    width: 10px;
+    height: 10px;
+    /* background-color: rgb(18, 201, 8); */
+}
+

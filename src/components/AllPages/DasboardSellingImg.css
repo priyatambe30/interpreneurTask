@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.topselling-right-container{
+    position: relative;
+    left: 170px;
+    top: 70px;
+    width: 330px;
+    height: 620px;
+    background-color: rgb(187, 185, 189);
+    border: 1px solid rgb(159, 158, 158);
+  }
+
+  .topselling-right1{
+
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 310px;
+    height: 620px;
+  }
+  .topselling-right2{
+
+    position: relative;
+    left: 10px;
+    top: -300px;
+    width: 310px;
+    height: 620px;
+  }

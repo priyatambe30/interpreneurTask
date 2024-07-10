@@ -1,21 +1,29 @@
 
+import React, { useState } from "react";
 
-import React from 'react'
+import UserData from "./UserData";
+// import React from 'react'
 import './AddCustomer.css'
 const AddCustomer = () => {
   // var selectedVal= $('#gender option:selected').val('male,female')
   // return selectedVal;
 // var user ={userGender:selectedVal};
 
+// const [user,setUser]=useState(<AddCustomer/>);
 
+//    const handleclick=()=>{
+//     setUser(!user);
+
+//    };
 
   return (
     <>
     <div className="addcustomer-container">
         <div className='addcustomer flex '>
               <h1 className='AddCustomer'>Add Customer</h1>
-              <img className='closebtn w-10 h-10' src='./images/close.png'></img>
+              <img className='closebtn w-10 h-10' src='./images/close.png' ></img>
         </div>
+        {/* {user ?<UserData/> :<AddCustomer/>} */}
         
 
           <div className="UserProf">
@@ -25,7 +33,7 @@ const AddCustomer = () => {
                   </div>
 
 
-                  <div className='userForm  grid gap-8'>
+                  <div className='userForm  grid gap-4'>
                     {/* <form action='grid gap-4'> */}
                     <div className='UserForm grid gap-2 '>
                     <label className='text-left text-[12px] grid gap-2'>First Name</label>
@@ -51,14 +59,9 @@ const AddCustomer = () => {
                     <label className='Gender text-left text-[12px]'>Gender</label>
                     {/* <input className=' text-[10px] bg-slate-100 w-50 h-8' placeholder='John' ></input> */}
                     <div className='dropdown'>
-                    {/* <button className='dropdownbtn'>Gender<i className="fa fa-caret-down"></i></button>
-                    <div className='dropdownlist flex'>
-                      <a className='' href='#' placeholder='male'>Male</a>
-                      <a className='' href='#'>Female</a>
+                    
 
-                    </div> */}
-
-                    <select className='Gender text-left text-[12px] bg-slate-100' id='gender'>
+                    <select className='Gender text-left text-[12px] bg-slate-100 ' id='gender'>
                       <option className='male' value="male">Male</option>
                       <option className='female' value="female">Female</option>
                     </select>

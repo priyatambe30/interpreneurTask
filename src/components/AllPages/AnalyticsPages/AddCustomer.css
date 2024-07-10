@@ -1,12 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 .addcustomer-container{
-    position: relative;
-    left:200px;
+    position: absolute;
+    right: -350px;
     top: -10px;
     width: 300px;
-    height: 900px;
-    /* background-color: rgb(7, 7, 229); */
+    height: 800px;
+    background-color: rgb(212, 212, 247);
 }
 
 .User{
@@ -21,13 +21,14 @@
 .AddCustomer{
     position: relative;
     left: 30px;
-    top: 0;
+    top: 20px;
+    
 
 }
 .closebtn{
     position: relative;
     left: 150px;
-    top: 0;
+    top: 20px;
 
 }
 .cameraImg{
@@ -51,7 +52,7 @@
 .submitcustomer{
     position: relative;
     left: 0px;
-    top: 30px;
+    top: 60px;
     width: 230px;
     height: 40px;
     background-color:  rgba(96, 91, 255, 1);

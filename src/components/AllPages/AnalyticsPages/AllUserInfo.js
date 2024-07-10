@@ -14,18 +14,28 @@ import React from 'react'
               <div className="h-8 w-18 text-left ">{bt.name}</div>
               <div className="flex col-span-2  h-8 w-40 text-left">{bt.email}</div>
               <div className="flex  h-8 w-18 text-left">{bt.phone}</div>
-              <div className="h-8 w-12 text-right  ">{bt.gender}<span style={{ backgroundColor: bt.color }}></span></div>
+              <div className="gender1 h-8 w-18 text-right  ">
+                
+                  <label className=' ' >
+                    <span className='span-gender-color  rounded-ml font-thin' style={{ backgroundColor: bt.color }}>{bt.gender}</span>
+                    <span className=''  style={{ color: bt.textcolor }}>
+
+                    </span>
+                    </label></div>
 
               <div className="flex space-x-8 text-[10px] text-right">
               <div className="dropdown">
-                <button className='font-bold buttondropdown '>...                         
+                <button className='font-bold buttondropdown text-right '>...                         
               </button>
-              <div className="dropdown-content flex items-center grid-cols-1">
-              <a className='edit text-violet-600  bg-sky-200 ' href="#">
-              <img className='' src='./images/Edit.png'></img>Edit</a>
+              <div className="dropdown-content flex items-center">
+              <a className='edit text-violet-700  bg-sky-300 w-40 h-10 hover:bg-sky-400 ' href="#"><i class="fa fa-edit text-violet-700"></i> Edit </a>
+              {/* <img className='' src='./images/Edit.png'></img>Edit</a> */}
+
               
-              <a className=' delete  text-rose-500 bg-rose-200 items-center object-cover' href="#">
-              <img className='' src='./images/Delete.png'></img> Delete</a>
+              
+              <a className=' delete text-black text-rose bg-rose-300 hover:bg-sky-400 w-40 h-10 items-center object-cover' href="#">
+                <i class="fa fa-trash text-rose-700"></i> Delete </a>
+              {/* <img className='' src='./images/Delete.png'></img> Delete</a> */}
                                       </div>
                                       </div>
                                       </div>

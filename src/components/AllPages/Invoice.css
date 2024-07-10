@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.invoice-Container1{
+    position: relative;
+    left: -1000px;
+    top: 90px;
+    width: 1000px;
+    height: 830px;
+    background-color: rgb(238, 235, 235);
+}
+
+.search{
+    position: relative;
+    left: -50px;
+    top: 0px;
+}
+.addNewBtn{
+    position: relative;
+    left: -10px;
+    top: 10px;
+    width: 300px;
+
+}
+.toggleButton1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 50px;
+
+}
+.header-dropdown-data{
+    position: relative;
+    left: 10px;
+    top: 30px;
+    width: 1000px;
+    /* background-color: chartreuse; */
+
+}
+
+.user-data-table{
+    position: relative;
+    left: -10px;
+    top: 30px;
+    width: 950px;
+    /* background-color: chartreuse; */
+
+}
+.status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: #0d0c0c;
+    font-size: 10px;
+  }
+.status.cancel{
+    background-color: rgb(245, 109, 109);
+    width: 50px;
+    color: brown;
+    
+}
+.status.pending{
+    background-color: rgb(249, 131, 131);
+    width: 50px;
+    color: rgb(54, 29, 3);
+    
+}
+ .status.complete{
+    
+    background-color: rgb(22, 79, 5);
+    width: 50px;
+    color: green;
+    
+}

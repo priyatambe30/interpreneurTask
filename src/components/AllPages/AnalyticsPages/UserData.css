@@ -4,19 +4,19 @@
     right: 30px;
     top: 0;
     width: 650px;
-    height: 900px;
-    background-color: rgb(7, 7, 229);
+    height: 800px;
+    background-color: rgb(7, 7, 74);
 }
 
 
 
 .UserInfo{
-    position: relative;
+    position: absolute;
     width: 320px;
-    height: 900px;
-    right: -180px;
+    height: 800px;
+    right: -350px;
     top: 0;
-    /* background-color: rgb(123, 123, 248); */
+    background-color: rgb(212, 212, 247);
     
 }
 .UserProf{

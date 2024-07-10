@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.table-container{
+    position: relative;
+    top: 30px;
+    
+   
+}
+
+.invoiceComponent{
+    width: 1200px;
+    height: 820px;
+    background-color: blue;
+}
+.td{
+    width: 30px;
+}
+/* 
+.status1 {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: #0d0c0c;
+    font-size: 10px;
+  }
+.status1.cancel{
+    background-color: rgb(245, 109, 109);
+    width: 50px;
+    color: brown;
+    
+}
+.status1.pending{
+    background-color: rgb(249, 131, 131);
+    width: 50px;
+    color: rgb(54, 29, 3);
+    
+}
+ .status1.complete{
+    
+    background-color: rgb(22, 79, 5);
+    width: 50px;
+    color: green;
+    
+} */

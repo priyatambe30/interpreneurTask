@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* right-schedule-container */
+.calendarday-conatiner{
+
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(243, 243, 246);
+    width: 580px;
+    height: 700px;
+}
+  
+  .calendarday-schedule {
+    background:white;
+    padding: none;
+    border-radius: 4px;
+    /* box-shadow: 0 2px 4px rgba(181, 179, 179, 0.1); */
+    width: 550px;
+    margin: 0 auto;
+    height: 680px;
+    gap: 0px;
+    
+  }
+  
+  header {
+    border-bottom: 1px solid #edebeb;
+    margin-bottom: 0px;
+  }
+  
+  header p {
+    font-size: 18px;
+    font: bold;
+  }
+
+  .span-title{
+    width: 30px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+.timetitle-container{
+  border: 1px solid rgb(247, 243, 243);
+  height: 37px;
+  
+}
+
+
+  .calendartime{
+    height: 35px;
+
+  }
+
+  /* .calendartitle{
+    background-color: brown;
+   
+  } */
+
+  .title {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 10px;
+    /* width: 20px; */
+  }
+  
+
+  /* styles.css */
+/* .position-0 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.position-1 {
+  position: "relative", top: "150px", left: 200px;
+}
+
+.position-2 {
+  position: relative;
+  top: 250px;
+  left: 300px;
+} */

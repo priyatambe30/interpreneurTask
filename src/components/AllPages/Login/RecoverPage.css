@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.RecoverPage-container{
+    position: relative;
+    left: 0;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(221, 219, 216);
+    margin: auto;
+
+}
+
+.Inner-RecoverPage-container{
+
+    position: relative;
+    left: 0;
+    top: 20px;
+    width: 450px;
+    height: 450px;
+    background-color: rgb(223, 223, 221);
+    margin: auto;
+
+}
+.logoImage{
+    position: relative;
+    left: 0;
+    top: 60px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+
+}
+.recoverText{
+    
+    position: relative;
+    left:190px;
+    top: 70px;
+    font-size: 22px;
+    
+}
+
+.emailInfo{
+    position: relative;
+    left:0px;
+    top: 100px;
+    font-size: 15px;
+}
+
+.resetyourpass{
+    background-color:  rgba(96, 91, 255, 1);
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.resetyourpass:hover{
+    background-color:  rgb(64, 58, 248);
+    
+}
