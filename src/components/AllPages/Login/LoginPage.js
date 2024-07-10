@@ -69,10 +69,12 @@ const LoginPage = () => {
                 
             </div>
 
+            </div>
+
 
             {/* Login Details */}
             <div className='userLoginForm '>
-                    {/* <form action='grid gap-4'> */}
+                   
                     <div className='UserForm grid gap-2 '>
                     <label className='text-left text-[12px] grid gap-2'>Email Address</label>
                     <input className=' text-[10px] bg-slate-100 w-64 h-8 ' placeholder='example@gmail.com' ></input>
@@ -108,7 +110,7 @@ const LoginPage = () => {
 
       </div>
     </div>
-    </div>
+    
     </>
   )
 }

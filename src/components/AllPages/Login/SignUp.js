@@ -37,7 +37,7 @@ const SignUp = () => {
             <img className='logo2 w-20 h-20 ' src='./images/Logo.png'></img>
             <p className='text-center font-bold'>Sign Up</p>
             </div>
-            <div className='social-button flex grid grid-cols-2 gap-8 w-64 '>
+            <div className='social-buttonss flex grid grid-cols-2 gap-8 w-64 '>
                 <div className=' flex space-x-2  bg-slate-100'>
                     <img className='sociallogoimage w-3 h-3' src='./images/GoogleLogo.png'></img>
                     <button className=''>
@@ -57,11 +57,12 @@ const SignUp = () => {
     </div>
                 
             </div>
+            
 
 
             {/* Login Details */}
-            <div className='userLoginForm '>
-                    {/* <form action='grid gap-4'> */}
+            <div className='usersignupForm '>
+                   
 
                     <div className='UserForm grid gap-2 '>
                     <label className='text-left text-[12px] grid gap-2'>Full Name</label>
@@ -83,8 +84,8 @@ const SignUp = () => {
                     <img className='eyesymbool' src='./images/Hide.png' onClick={mufun}></img>
                   </div>  
 
-                  <div className='checkboxData text-[12px] '>
-                    <input type='checkbox' className='ckboxremember'></input>
+                  <div className='checkboxData text-[12px]  gap-2 '>
+                    <input type='checkbox' className='ckboxremember'></input> 
                     <label className='rememberme'>By creating an account you agree to the<br/>
                     <a className='text-blue-500 underline decoration-1' href='#'>terms of use </a>
                       and our <a className='text-blue-500 underline decoration-1' href='#'>privacy policy.</a></label>

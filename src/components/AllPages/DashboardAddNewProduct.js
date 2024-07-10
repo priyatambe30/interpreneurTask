@@ -37,7 +37,8 @@ const DashboardAddNewProduct = () => {
 
       <div className="All-form-group">
       <div className="form-group">
-        <label htmlFor="productName">Product Name</label>
+        <div><label htmlFor="productName">Product Name</label></div>
+        <div>
         <input
           type="text"
           id="productName"
@@ -45,11 +46,12 @@ const DashboardAddNewProduct = () => {
           onChange={(e) => setProductName(e.target.value)}
           placeholder="Mackbook Pro 2021 14''"
         />
+        </div>
       </div>
 
       <div className="form-group">
         <label htmlFor="brand">Brand</label>
-        <input
+        <input className='form-group input'
           type="text"
           id="brand"
           value={brand}
@@ -58,23 +60,11 @@ const DashboardAddNewProduct = () => {
         />
       </div>
 
-      {/* <div className='Gender1'>
-                    <label className='Gender text-left text-[12px]'>Gender</label>
-                    
-                    <div className='dropdown'>
-                    
-
-                    <select className='Gender text-left text-[12px] bg-slate-100 ' id='gender'>
-                      <option className='male' value="male">Male</option>
-                      <option className='female' value="female">Female</option>
-                    </select>
-                    </div>
-                  </div> */}
 
       <div className="flex">
       <div className="form-group1 gap-4">
         <label htmlFor="price">Price</label>
-        <input
+        <input className='form-group input'
           type="text"
           id="price"
           value={price}
@@ -83,7 +73,7 @@ const DashboardAddNewProduct = () => {
         />
         </div>
         <div className="negotiable-checkbox ">
-          <input
+          <input className='form-group input'
             type="checkbox"
             id="isNegotiable"
             checked={isNegotiable}
@@ -95,7 +85,7 @@ const DashboardAddNewProduct = () => {
       </div>
 
       <div className="form-group mt-4">
-        <label  htmlFor="descriptions">Descriptions</label>
+        <label  htmlFor="descriptions">Descriptions</label><br/>
         <textarea className='desc-textarea text-[10px]'
           id="descriptions"
           value={descriptions}
@@ -108,8 +98,8 @@ apple This the New creation Of apple."
       </div>
 
       <div>
-      <button type="submit" className="save-button">
-        <span role="img" aria-label="save">💾</span> Save Product
+      <button type="submit" className="save-button"><img src='./images/Download (3).png'></img>
+        <span role="img" aria-label="save"></span> Save Product
        
       </button>
       </div>

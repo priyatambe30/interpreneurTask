@@ -34,7 +34,7 @@
 } */
 .loginformcontainer{
     position:relative ;
-    top: -40px;
+    top: 0px;
     left: 10px;
     width: 400px;
     height: 620px;
@@ -78,10 +78,11 @@ hr.solid{
 
 .userLoginForm{
     position:relative ;
-    top: 160px;
-    left: 90px;
+    top: -320px;
+    left: 122px;
     /* width: 100px; */
-    height: 20px;
+    /* height: 200px; */
+    /* background-color: brown; */
 
 }
 .sociallogoimage{
