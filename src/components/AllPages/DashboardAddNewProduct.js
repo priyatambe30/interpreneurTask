@@ -51,7 +51,7 @@ const DashboardAddNewProduct = () => {
 
       <div className="form-group">
         <label htmlFor="brand">Brand</label>
-        <input className='form-group input'
+        <input className='form-group-input'
           type="text"
           id="brand"
           value={brand}
@@ -64,7 +64,7 @@ const DashboardAddNewProduct = () => {
       <div className="flex">
       <div className="form-group1 gap-4">
         <label htmlFor="price">Price</label>
-        <input className='form-group input'
+        <input className='form-group-input'
           type="text"
           id="price"
           value={price}
@@ -73,7 +73,7 @@ const DashboardAddNewProduct = () => {
         />
         </div>
         <div className="negotiable-checkbox ">
-          <input className='form-group input'
+          <input className='form-group-input'
             type="checkbox"
             id="isNegotiable"
             checked={isNegotiable}

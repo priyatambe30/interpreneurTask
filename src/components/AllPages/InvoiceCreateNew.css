@@ -239,11 +239,11 @@
     left: 280px;
     top: 5px;
   }
-  .mainheader{
+  .invoicemainheader{
     position: relative;
-    left: -50px;
+    left: 0px;
     top: 50px;
-    width:600px ;
+    width:400px ;
     height: 80px;
     align-items: center;
   }
@@ -290,10 +290,11 @@
   main {
     padding: 20px 0;
   }
-  .mainbody{
+  .mainbody1{
     position: relative;
-    left: 0;
+    left: -116px;
     top: 30px;
+    width: 400px;
     background-color: rgb(248, 241, 241);
   }
   
@@ -310,9 +311,9 @@
   
   .task-list table {
     position: relative;
-    left: 10px;
+    left: -110px;
     top: 80px;
-    width: 100%;
+    width: 400px;
     border-style: none;
     margin-bottom: 20px;
     background-color: #f0eaea;
@@ -362,13 +363,22 @@
   .notes p {
     margin: 5px 0;
   }
-  .notes{
+  .notes1{
     position: relative;
     top: 30px;
+    left: -120px;
+    background-color: rgb(234, 237, 237);
+    margin: 5px 0;
+    width: 400px;
+    font-size: 10px;
+  }
+  .notes2{
+    position: relative;
+    top: 10px;
     left: 0px;
     background-color: rgb(234, 237, 237);
     margin: 5px 0;
-    width: 410px;
+    width: 400px;
     font-size: 10px;
   }
   

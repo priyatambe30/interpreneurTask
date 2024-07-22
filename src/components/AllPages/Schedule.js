@@ -218,7 +218,7 @@ const Schedule = () => {
           </div>
 
 
-          <div className=" table-data grid gap-3 cols-7 text-center font-thin text-[10px] ">
+          <div className=" table-data grid gap-6 cols-7 text-center font-thin text-[10px] ">
             {/* <table className="w-auto">
               <tr className=" flex ">
                 <td className="table-data flex grid content-evenly gap-4">
@@ -239,16 +239,18 @@ const Schedule = () => {
               </tr>
             </table> */}
                   {events.map((events, index) => (
-                 <div className="flex  gap-10  cols-7 border border-1-solid pt-2 hover:bg-slate-200 hover:text-sky-600 cursor-pointer">
+                 <div className="flex  gap-16  cols-7 border border-1-solid pt-2 hover:bg-slate-200 hover:text-sky-600 cursor-pointer">
                   <label key={index}></label>
 
                  <div className="pt-2"> <input type="checkbox"  ></input> </div>
 
                  
-                 <div className="flex pt-2"><img className="w-3 h-3" src="./images/Calendar (2).png"></img><label className=" pl-2"> {events.date}</label></div>
+                 <div className="flex pt-2"><img className="w-3 h-3" src="./images/Calendar (2).png">
+                 </img><label className=" pl-2"> {events.date}</label></div>
 
                  
-                 <div className="flex pt-2"><img className="w-3 h-3" src="./images/Time Circle.png"></img><label className=" pl-2">{events.time}</label></div>
+                 <div className="flex pt-2"><img className="w-3 h-3" src="./images/Time Circle.png"></img>
+                 <label className=" pl-2">{events.time}</label></div>
 
                  
                  <div className="flex col-span-2 text-center bg-sky-100 text-blue-700 w-32 h-8 rounded-full pt-2 pl-2"><img className="w-3 h-3" src="./images/Location(2).png"></img>

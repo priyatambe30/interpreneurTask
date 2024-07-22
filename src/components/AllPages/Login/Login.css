@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 .login-container{
     position: relative;
@@ -28,8 +28,40 @@
 
 .image-container{
     position: relative;
-    left: 180px;
+    left: 125px;
     top: 114px;
     width: 454px;
     height: 539px;
 }
+
+
+
+/* media query for mobile */
+@media only screen and (max-width: 800px) and (min-width: 350px)
+{   .right-login-container,
+    .image-container{
+    display: none;
+   }
+
+
+
+   .login-container{
+    position: relative;
+    left: 0;
+    top: 0px;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+   }
+   .inner-login-container{
+    position: relative;
+    left: 163px;
+    top: 66px;
+    width: 480px;
+    height: 640px;
+    background-color:  rgb(243, 246, 217);
+
+}
+
+
+  }

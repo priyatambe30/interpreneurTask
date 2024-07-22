@@ -132,7 +132,7 @@ const Menubar2 = () => {
                   id='menu-box' 
                   className={`menu-box ${menuVisible ? 'visible' : ''}`}
                 >
-                    {bt.label}
+                    {bt.label}<mark className="badgemark">{bt.bagdge}</mark>
                   </span>
                 </div>
               </label>

@@ -10,36 +10,36 @@
     left: 40px;
     top: 0px;
     width: 1000px;
-    height: 800px;
+    height: 640px;
     /* background-color:  rgb(160, 157, 157); */
 }
 .signup-container{
     position: relative;
-    left: 20px;
-    top: 10px;
+    left: 64px;
+    top: 55px;
     width: 1000px;
-    height: 750px;
+    height: 640px;
     background-color:  rgb(210, 206, 206);
     /* background-color:  rgb(246, 3, 3); */
 }
 
 .signup-Inner-container{
     position:relative ;
-    top: -15px;
-    left: -50px;
-    width: 480px;
-    height: 700px;
+    top: 1px;
+    left: -41px;
+    width: 446px;
+    height: 603px;
     margin: auto;
-   
+    border: 1px solid #a6a2a2;
     background-color:  rgb(216, 216, 219);
 
 }
 .logo2{
-    position:relative ;
-    top: -40px;
+    position: relative;
+    top: -21px;
     left: 40px;
-    width: 80px;
-    height: 100px; 
+    width: 76px;
+    height: 84px;
 
 }
 
@@ -52,15 +52,20 @@
    
 
 }
+.signuptext{
+    position: relative;
+        top: -20px;
+        left: 26px;
+        width: 117px;
+        height: 80px;
+        font-size: 24px;
+}
 .social-buttonss{
-    position:relative ;
-    top: 60px;
-    left: 90px;
-    /* width: 100px; */
-    height: 20px;
-    /* border-bottom: 1px solid gray;  */
-     /* border-radius: 10px;
-     background-color: rgb(202, 197, 197); */
+    position: relative;
+    top: 29px;
+    left: 97px;
+    width: 235px;
+    height: 21px;
 }
 
 hr.solid{
@@ -69,24 +74,30 @@ hr.solid{
 }
 
 .usersignupForm{
-    position:relative ;
-    top: 80px;
-    left: 90px;
-    width: 300px;
-    height: 400px;
-    /* background-color: rgb(204, 203, 202); */
-    /* margin-left: 5px; */
+    position: relative;
+    top: 64px;
+    left: 47px;
+    width: 329px;
+    height: 327px;
+    background-color: rgb(218 216 215);
+    margin-left: 5px;
+
 
 }
-.sociallogoimage{
+.sociallogoimage2{
     position:relative ;
     top: 7px;
-    left:2px;
+    left:12px;
+    cursor: pointer;
 }
-.eyesymbool{
-    position:relative ;
-    top: -30px;
-    left:220px;
+.sociallogoimage2:hover{
+    background-color: rgb(79, 79, 246);
+
+}
+.eyesymbool1{
+    position: relative;
+    top: -21px;
+    left: 274px;
 }
 
 .checkboxData{
@@ -104,22 +115,27 @@ hr.solid{
 } */
 
 .bottomsection{
-    position:relative ;
-    top: 40px;
- left: 30px;
+    position: relative;
+    top: 12px;
+    left: 69px;
 
 }
 .submitcustomer{
-    position:relative ;
-    top: 30px;
- left: 10px;
+    position: relative;
+    top: 6px;
+    left: 0px;
+    width: 327px;
+    height: 40px;
 
 }
-.newacc{
+/* .termsofuse,.privacypolicy{
     color:rgba(96, 91, 255, 1);
-}
-.resetpass:hover,.newacc:hover{
+} */
+.termsofuse:hover,.privacypolicy:hover,.submitcustomer:hover{
     color:rgb(141, 138, 244);
+}
+.submitcustomer:hover{
+    color:rgb(247, 246, 251);
 }
 
 
@@ -133,10 +149,10 @@ hr.solid{
     background-color:  rgb(33, 2, 2); */
 }
 
-.image-container1{
+.image-container2{
     position: relative;
     left: -50px;
-    top: 300px;
+    top: 272px;
     width: 400px;
     height: 350px;
     
@@ -145,26 +161,71 @@ hr.solid{
 
 
 /* code for divider */
-.divider {
+.divider2 {
     position: relative;
-    top: -40px;
-    left: 70px;
+    top: -30px;
+    left: 45px;
     display: flex;
     align-items: center;
     text-align: center;
     margin: 20px 0;
   }
   
-  .divider::before,
-  .divider::after {
+  .divider2::before,
+  .divider2::after {
     content: '';
     flex: 1;
     border-bottom: 1px solid #979595;
     margin: 0 10px;
   }
   
-  .divider-text {
+  .divider2-text {
     white-space: nowrap;
     color: #0e0d0d; /* Adjust color as needed */
   }
+
+
+  /* media query for mobile */
+@media only screen and (max-width: 800px) and (min-width: 350px)
+{
+    .right-signup-container1{
+        display: none;
+    }
+    .signup-container{
+        position: relative;
+        left: 126px;
+        top: 64px;
+        width: 489px;
+        height: 676px;
+        background-color: rgb(243, 246, 217);
+    }
+    .signup-Inner-container {
+        border: 1px solid #a6a2a2;
+        position: relative;
+        top: 0px;
+        left: -2px;
+        width: 461px;
+        height: 657px;
+        margin: auto;
+        background-color: rgb(216, 216, 219);
+}
+.logo2 {
+    position: relative;
+    top: -7px;
+        left: 40px;
+        width: 76px;
+    height: 80px;
+}
+.signuptext{
+    position: relative;
+        top: 1px;
+        left: 26px;
+        width: 117px;
+        height: 80px;
+        font-size: 24px;
+}
+.right-signup-container1{
+    display: none;
+}
+}
   

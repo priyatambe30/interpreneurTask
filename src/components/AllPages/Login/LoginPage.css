@@ -22,20 +22,20 @@
     /* background-color:  rgb(246, 3, 3); */
 }
 
-/* .Login-Inner-container{
+.Login-Inner-container{
     position:relative ;
     top: 10px;
-    left: -30px;
+    left: 22px;
     width: 400px;
     height: 600px;
    border: 2px solid rgb(187, 185, 185);
     
 
-} */
+}
 .loginformcontainer{
     position:relative ;
     top: 0px;
-    left: 10px;
+    left: -9px;
     width: 400px;
     height: 620px;
     /* background-color:  rgb(49, 57, 179); */
@@ -54,7 +54,7 @@
 .Login-Logo{
     position:relative ;
     top: 80px;
-    left: 150px;
+    left: 151px;
     width: 130px;
     height: 150px;  
    
@@ -63,9 +63,11 @@
 .social-button{
     position:relative ;
     top: 100px;
-    left: 90px;
-    /* width: 100px; */
+    left: 89px;
+    width: 250px;
     height: 20px;
+   text-align: center;
+    
     /* border-bottom: 1px solid gray;  */
      /* border-radius: 10px;
      background-color: rgb(202, 197, 197); */
@@ -78,22 +80,27 @@ hr.solid{
 
 .userLoginForm{
     position:relative ;
-    top: -320px;
-    left: 122px;
-    /* width: 100px; */
-    /* height: 200px; */
+    top: -294px;
+    left: 81px;
+    width: 250px;
+     height: 250px; 
     /* background-color: brown; */
 
 }
-.sociallogoimage{
+.sociallogoimage1{
     position:relative ;
     top: 7px;
-    left:2px;
+    left:12px;
+    cursor: pointer;
+}
+.sociallogoimage1:hover{
+    background-color: rgb(79, 79, 246);
+
 }
 .eyesymbool{
     position:relative ;
-    top: -30px;
-    left:220px;
+    top: -27px;
+    left:210px;
 }
 
 .checkboxData{
@@ -102,50 +109,143 @@ hr.solid{
     /* left:2px; */
 
 }
-.resetpass{
+.resetpass1{
     position:relative ;
     top: 0px;
- left: 90px;
+ left: 78px;
  color:rgba(96, 91, 255, 1);
 
 }
 
-.bottomsection{
+.bottomsection1{
     position:relative ;
-    top: 70px;
+    top: 35px;
  left: 30px;
  
 
 }
-.newacc{
-    color:rgb(10, 6, 138);
-}
-.resetpass:hover,.newacc:hover{
+.newacc1{
     color:rgba(96, 91, 255, 1);
+}
+.resetpass1:hover,
+.newacc1:hover{
+    color:rgb(233, 69, 216);
 }
 
 
 /* code for divider */
-.divider {
+.divider1 {
     position: relative;
-    top: -30px;
-    left: 70px;
+    top: -20px;
+    left: 45px;
     display: flex;
     align-items: center;
     text-align: center;
     margin: 20px 0;
   }
   
-  .divider::before,
-  .divider::after {
+  .divider1::before,
+  .divider1::after {
     content: '';
     flex: 1;
-    border-bottom: 1px solid #a9a7a7;
+    border-bottom: 2px solid #a9a7a7;
     margin: 0 10px;
   }
   
-  .divider-text {
+  .divider1-text {
     white-space: nowrap;
     color: #0e0d0d; /* Adjust color as needed */
   }
+
+  .submitcustomer1 {
+    position: relative;
+    top: 19px;
+    left: -2px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+
+  }
+
+
+  
+
+/* media query for mobile */
+@media only screen and (max-width: 800px) and (min-width: 350px)
+{   
+
+
+
+.Login-container{
+    position: relative;
+    left: 30px;
+    top: 0px;
+    width: 400px;
+    height: 620px;
+    background-color:  rgb(207, 202, 202);
+    /* background-color:  rgb(246, 3, 3); */
+   
+}
+
+.main-login-container{
+    
+    position: relative;
+        left: 19px;
+        top: 10px;
+        width: 438px;
+        height: 620px;
+    background-color:  rgb(197, 197, 199);
+}
+
+.loginformcontainer{
+    
+    position:relative ;
+    left: -4px;
+    top: 0px;
+    width: 390px;
+    height: 590px;
+    background-color:  rgb(197, 197, 199);
+    margin: auto;
+
+}
+
+.Login-Inner-container{
+    position:relative ;
+    top: 10px;
+    left: -10px;
+    width: 400px;
+    height: 600px;
+   border: 2px solid rgb(159, 157, 157);
+    
+
+}
+.userLoginForm{
+    position:relative ;
+    top: -272px;
+    left: 65px;
+    width: 250px;
+     height: 250px; 
+    /* background-color: brown; */
+
+}
+.Login-Logo {
+    position: relative;
+    top: 80px;
+    left: 123px;
+    width: 130px;
+    height: 150px;
+}
+.social-button {
+    position: relative;
+    top: 100px;
+    left: 64px;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+}
+
+
+}
+
+
   

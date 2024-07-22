@@ -127,7 +127,7 @@ const InvoiceCreateNew = () => {
         <img className=' downloadbtn w-4 h-4 gap-4' src='./images/Download (2).png'></img>
         <img className='printbtn w-4 h-4 gap-4' src='./images/Group.png'></img>
         </div>
-          <div className='mainheader flex bg-slate-100'>
+          <div className='invoicemainheader flex bg-slate-100'>
           <div className="header-left">
            
            <div className="company-logo"><img src='./images/logo (2).png'></img>           
@@ -144,7 +144,7 @@ const InvoiceCreateNew = () => {
           </div>
         </header>
         <main>
-          <div className='mainbody flex text-[8px] gap-48'>
+          <div className='mainbody1 flex text-[8px] gap-48'>
           <section className="recipient">
             <h2 className='text-[8px] font-bold'>RECIPIENT</h2>
             <p>{invoiceData.recipient.name}</p>
@@ -203,7 +203,7 @@ const InvoiceCreateNew = () => {
             </table>
             
           </section>
-          <section className="notes text-center ">
+          <section className="notes1 text-center ">
            
             <p>Transfer the amount to the business account below. Please include invoice number on your check.</p>
             <p>BANK: <span className='font-bold '>FTSBUS33</span></p>
@@ -211,7 +211,7 @@ const InvoiceCreateNew = () => {
           </section>
          
         </main>
-        <section className="notes text-left ">
+        <section className="notes2 text-left ">
             <h2 className='font-bold'>Notes</h2>
             <p className='text-[10px]'>All amounts are in dollars. Please make the payment within 15 days from the issue of date of this invoice.
                Tax is not charged on the basis of paragraph 1 of Article 94 of the Value Added Tax Act (I am not liable for VAT)..</p>
