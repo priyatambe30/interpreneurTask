@@ -186,9 +186,9 @@ const navigateToInvoiceCreateNew=()=>{
 
         {/* body Dropdownlist */}
 
-        <div className="header-dropdown-data flex  text-[13px] grid grid-cols-9  text-left">
+        <div className="header-dropdown-data flex  text-[13px] grid grid-cols-10  text-left">
           <div className="dropdown col-span-1">
-            <button className="dropbtn1 text-[13px] ">
+            <button className="dropbtnss text-[13px] ">
               Invoice Id
               <i className="fa fa-caret-down"></i>
             </button>
@@ -198,8 +198,8 @@ const navigateToInvoiceCreateNew=()=>{
             </div>
           </div>
 
-          <div className="dropdown col-span-1">
-            <button className="dropbtn1 text-[13px] ">
+          <div className="dropdown col-span-2">
+            <button className="dropbtnss1 text-[13px] ">
               Name
               <i className="fa fa-caret-down"></i>
             </button>
@@ -210,7 +210,7 @@ const navigateToInvoiceCreateNew=()=>{
           </div>
 
           <div className="dropdown col-span-3">
-            <button className="dropbtn2 text-[13px] text-right">
+            <button className="dropbtnss2 text-[13px] text-right">
               Email
               <i className="fa fa-caret-down"></i>
             </button>
@@ -221,7 +221,7 @@ const navigateToInvoiceCreateNew=()=>{
           </div>
 
           <div className="dropdown ">
-            <button className="dropbt3">
+            <button className="dropbtss3">
               Date
               <i className="fa fa-caret-down"></i>
             </button>
@@ -232,7 +232,7 @@ const navigateToInvoiceCreateNew=()=>{
           </div>
 
           <div className="dropdown col-span-2">
-            <button className="dropbtn4 text-left">
+            <button className="dropbtnss4 text-left">
               Status
               <i className="fa fa-caret-down"></i>
             </button>

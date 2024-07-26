@@ -156,8 +156,8 @@ const Analytics = () => {
 
         {/* body Dropdownlist */}
 
-        <div className="flex  text-[13px] grid grid-cols-7  text-left">
-          <div className="dropdown col-span-1">
+        <div className="flex  text-[13px] grid grid-cols-9   text-left">
+          <div className="dropdown col-span-2">
             <button className="dropbtn1 text-[13px] ">
               Name
               <i className="fa fa-caret-down"></i>
@@ -179,7 +179,7 @@ const Analytics = () => {
             </div>
           </div>
 
-          <div className="dropdown ">
+          <div className="dropdown col-span-2 ">
             <button className="dropbt3">
               Phone Number
               <i className="fa fa-caret-down"></i>

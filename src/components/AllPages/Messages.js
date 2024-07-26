@@ -19,9 +19,9 @@ const Messages = () => {
           </button>
         </div>
 
-        <div className="searchbtnmsg flex">
-        <button type="submit" className="bg-slate-100"> <i className="fa fa-search"></i></button>
-          <input type="text" placeholder="search.." className="searchtext font-thin rounded-full"></input>
+        <div className="searchbtnmsg1 flex">
+        <button type="submit" className=" fafasearchmessage bg-slate-100"> <i className="fa fa-search"></i></button>
+          <input type="text" placeholder="search.." className="searchtext1 font-thin rounded-full"></input>
           
         </div>
         
@@ -36,7 +36,7 @@ const Messages = () => {
         <div className="chatting-list  flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
-              <img className="h-16 w-16 rounded-full" src="./images/image2.png"></img>
+              <img className="h-10 w-10" src="./images/image2.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div>
                 <a className="text-[14px] text-left"> Robert Bacins</a>
@@ -49,7 +49,7 @@ const Messages = () => {
         <div className="chatting-list grid flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
-              <img className="h-16 w-16 rounded-full" src="./images/image3.png"></img>
+              <img className="h-10 w-10" src="./images/image3.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div>
               <a className="text-[14px] text-left"> John Carilo</a>
@@ -62,7 +62,7 @@ const Messages = () => {
         <div className="chatting-list grid flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
-              <img className="h-16 w-16 rounded-full" src="./images/image4.png"></img>
+              <img className="h-10 w-10" src="./images/image4.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div>
               <a className="text-[14px] text-left"> Adriene Watson</a>
@@ -76,7 +76,7 @@ const Messages = () => {
         <div className="chatting-list grid flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0">
-              <img className="h-16 w-16 rounded-full" src="./images/image5.png"></img>
+              <img className="h-10 w-10" src="./images/image5.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div>
               <a className="text-[14px] text-left"> Jhon Deo</a>
@@ -89,7 +89,7 @@ const Messages = () => {
         <div className="chatting-list grid flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0">
-              <img className="h-16 w-16 rounded-full" src="./images/image9.png"></img>
+              <img className="h-10 w-10" src="./images/image9.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div>
               <a className="text-[14px] text-left"> Shelby Goode</a>
@@ -102,7 +102,7 @@ const Messages = () => {
         <div className="chatting-list grid flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0">
-              <img className="h-16 w-16 rounded-full" src="./images/image7.png"></img>
+              <img className="h-10 w-10" src="./images/image7.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div>
               <a className="text-[14px] text-left"> Mark Ruffalo</a>
@@ -115,7 +115,7 @@ const Messages = () => {
         <div className="chatting-list grid flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0">
-              <img className="h-16 w-16 rounded-full" src="./images/image8.png"></img>
+              <img className="h-10 w-10" src="./images/image8.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div className="">
               <a className="text-[14px] text-left"> Bethany Jackson</a>
@@ -130,7 +130,7 @@ const Messages = () => {
         <div className="chatting-list grid flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0">
-              <img className="h-16 w-16 rounded-full" src="./images/image9.png"></img>
+              <img className="h-10 w-10" src="./images/image9.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div>
               <a className="text-[14px] text-left"> Shelby Goode</a>
@@ -143,7 +143,7 @@ const Messages = () => {
         <div className="chatting-list grid flex border-solid border-2 border-slate-200">
           <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
             <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0">
-              <img className="h-16 w-16 rounded-full" src="./images/image7.png"></img>
+              <img className="h-10 w-10" src="./images/image7.png"></img>
               <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
               <div>
               <a className="text-[14px] text-left"> Mark Ruffalo</a>
@@ -181,7 +181,7 @@ const Messages = () => {
                             <div>
                             <ul role="list" className="p-2 divide-y divide-slate-200 gap-4">
                               <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0">
-                                <img className="h-16 w-16 rounded-full" src="./images/image4.png"></img>
+                                <img className="h-10 w-10" src="./images/image4.png"></img>
                                 <img className=" onlineImage h-2 w-2 rounded-full" src="./images/online.png"></img>
                                 <div>
                                   <a> Adriene Watson</a>
@@ -202,7 +202,7 @@ const Messages = () => {
                       <div className="chatting">
                                 <div><p className="chat-para1 grid text-white text-[10px] rounded-lg">Lorem Ipsum is simply </p></div>
                                 <div><p className="chat-para2 grid text-white text-[10px] text-left rounded-lg">Lorem Ipsum is simply dummy text of the printing <br/>and typesetting industry.</p></div>
-                                <div  className="grid gap-2"><img className="h-16 w-16"  src="./images/image4.png"></img></div>
+                                <div  className="grid gap-2"><img className="h-10 w-10"  src="./images/image4.png"></img></div>
 
                                 <div className=" chatimages flex gap-2 rounded-lg">
                                   <img className="rounded-lg" src="./images/chatimage1.png"></img>
@@ -211,7 +211,7 @@ const Messages = () => {
 
                                 <div><p className="chat-para3 grid text-white text-[10px] rounded-lg">
                                   Lorem Ipsum is simply dummy text of the printing <br/>and typesetting industry.</p></div>
-                                <div><img className="h-16 w-16" src="./images/image4.png"></img></div>
+                                <div><img className="h-10 w-10" src="./images/image4.png"></img></div>
                       </div>
 
 

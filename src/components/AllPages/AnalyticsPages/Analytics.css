@@ -72,16 +72,16 @@
     position: relative;
     top: 0;
 } */
-/* .dropbtn1,.dropbtn2,.dropbtn3,.dropbtn4{
-   
+.dropbtn1,.dropbtn2,.dropbtn3,.dropbtn4{
+    /* background-color: brown; */
     width: 160px;
     position: relative;
     top: 0;
 }
-.dropbtn1{ left: 0px; } 
-.dropbtn2{ left: 10px; } 
+.dropbtn1{ left: 38px; } 
+.dropbtn2{ left: -40px; } 
 .dropbtn3{ left: 0px; } 
-.dropbtn4{ left:20px ; }  */
+.dropbtn4{ left: 0px ; } 
 
 .ContactInfo{
     position: absolute;

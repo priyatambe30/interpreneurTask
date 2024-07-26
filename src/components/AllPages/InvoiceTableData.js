@@ -1,6 +1,7 @@
 
 
 import React from 'react'
+import "./InvoiceTableData.css"
 
 function InvoiceTableData({invoiceArr}){
 
@@ -15,11 +16,13 @@ function InvoiceTableData({invoiceArr}){
               <img className='flex space-x-4 rounded-full text-left' src={invoice.src}></img>
              
               <div className="h-8 w-40 text-left  ">{invoice.name}</div>
-              <div className='flex col-span-3 pl-8'> <img className='flex space-x-4 w-4 h-4 rounded-full text-left ' src={invoice.message}>
+              <div className='flex col-span-3 pl-8'> <img className='flex space-x-4 w-6 h-6 rounded-full text-left ' src={invoice.message}>
               </img>{invoice.email}</div>
              
-              <div className='flex col-span-2'> <img className='flex space-x-4 w-4 h-4 rounded-full text-left' src={invoice.calender}>
-              </img><input type='date'></input>{invoice.Date}</div>
+              <div className='flex col-span-2 gap-2'> 
+                <img className='invoicecalendarimg flex space-x-4 w-6 h-6   rounded-full text-left' src={invoice.calender}>
+              </img>
+              <input type='date' className='p-1'></input>{invoice.Date}</div>
               
               {/* <div className=" status1 h-8 w-12  text-left " style={{ background: 'green', color:'white'}}>{invoice.status}</div> */}
               <div className=" status1 h-8 w-12  text-left ">

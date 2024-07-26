@@ -95,7 +95,7 @@ const Schedule = () => {
                     >
                       <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
                         <img
-                          className="h-12 w-12 rounded-full"
+                          className="h-10 w-10"
                           src="./images/image4.png"
                         ></img>
 
@@ -119,7 +119,7 @@ const Schedule = () => {
                     >
                       <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
                         <img
-                          className="h-12 w-12 rounded-full"
+                          className="h-10 w-10"
                           src="./images/image5.png"
                         ></img>
 
@@ -140,7 +140,7 @@ const Schedule = () => {
                     >
                       <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
                         <img
-                          className="h-12 w-12 rounded-full"
+                          className="h-10 w-10"
                           src="./images/image7.png"
                         ></img>
 

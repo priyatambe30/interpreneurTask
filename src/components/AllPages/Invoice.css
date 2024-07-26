@@ -37,6 +37,35 @@
     /* background-color: chartreuse; */
 
 }
+.dropbtnss{
+    position: relative;
+    left: 40px;
+    top: 0px;
+    /* width: 950px; */
+
+}
+.dropbtnss1{
+    position: relative;
+    left: 150px;
+    top: 0px;
+    /* width: 950px; */
+
+}
+.dropbtnss2{
+    position: relative;
+    left: 80px;
+    top: 0px;
+}
+.dropbtss3{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.dropbtnss4{
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
 
 .user-data-table{
     position: relative;

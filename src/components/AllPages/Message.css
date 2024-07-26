@@ -29,22 +29,31 @@
     padding-top: 3px;
 
 }
-.searchbtnmsg{
+.searchbtnmsg1{
     position: relative;
-    left: 10px;
+    left: 0px;
     top: 0px;
     width: 297px;
-    height: 40px;
+    height: 30px;
     font: bold;
-    padding-top: 3px;
-    border-radius: 10px;
+    /* padding-top: 3px; */
+    /* border-radius: 10px; */
     /* background-color: rgb(232, 230, 230); */
     
 
 }
-.searchtext{
+.fafasearchmessage{
+    
+    position: relative;
+    left: 300px;
+    top: 5px;
+}
+.searchtext1{
+    position: relative;
+    left: 0px;
+    top: 0px;
     width: 400px;
-    height: 30px;
+    height: 40px;
 }
 .category{
     position: relative;
