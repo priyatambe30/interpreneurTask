@@ -31,7 +31,7 @@ const Settings = () => {
     
       <div className='header-container flex '>
         <p>Task Preview</p>
-        <button className='taskbtn1 font-thin'>+Add Task</button>
+        <button className='addtaskbtn1 font-thin'>+Add Task</button>
       </div>
 
       <div className='subheader-container flex font-thin text-[10px] '>

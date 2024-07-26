@@ -37,10 +37,10 @@
 
 }
 
-.taskbtn1{
-    position: relative;
-    left:0px;
-    top: 0px;
+.addtaskbtn1{
+    position: fixed;
+    right:80px;
+    top: 100px;
     width: 100px;
     height: 40px;
     background-color: rgba(96, 91, 255, 1);

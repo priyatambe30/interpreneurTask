@@ -31,7 +31,7 @@ const ScheduleTaskPreview = () => {
     
       <div className='header-container flex '>
         <p className='pb-2 font-bold'>Task Preview</p>
-        <button className='filterbtn font-thin'>Filter<img className='filterimg' src='images/Filter (1).png'></img></button>
+        <button className='filterbtn1 font-thin'>Filter<img className='filterimg1' src='images/Filter (1).png'></img></button>
       </div>
 
       <div className=' schedule-subheader-container flex font-thin text-[10px] '>
