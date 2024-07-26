@@ -53,19 +53,19 @@
     position: relative;
     left:0px;
     top: 0px;
-    width: 130px;
+    width: 100px;
     height: 40px;
     background-color: rgba(96, 91, 255, 1);
    border-radius: 10px;
    color: white;
-   /* margin-top: 5px;
-   text-align: center; */
+   margin-top: 5px;
+   text-align: center;
 
 }
 .filterimg1{
     position: relative;
-    left:100px;
-    top: -15px;
+    left:40px;
+    top: -10px;text-align: center;
 
 }
 
