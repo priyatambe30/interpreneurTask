@@ -1,6 +1,6 @@
 
 
-import React from 'react'
+import React, { useState } from 'react'
 import {useNavigate} from 'react-router-dom'
 import './LoginPage.css';
 import RecoverPage from "./RecoverPage"
@@ -8,6 +8,17 @@ import SignUp from './SignUp';
 import Menubar2 from '../Menubar2';
 
 const LoginPage = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [errors, setErrors] = useState({});
+
+  const handleUsernameChange = (e) => {
+    setUsername(e.target.value);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
     
     // const navigate= useNavigate();
     const navigate= useNavigate();
@@ -38,8 +49,41 @@ const LoginPage = () => {
 
     }
 
+
+// form submition//
+const handleSubmit = (e) => {
+  e.preventDefault();
+  
+  const newErrors = {};
+  
+  if (!username) {
+    newErrors.username = 'Username is required';
+  }
+  
+  if (!password) {
+    newErrors.password = 'Password is required';
+  }
+  
+  if (Object.keys(newErrors).length > 0) {
+    setErrors(newErrors);
+    return;
+  }
+
+  // Proceed with form submission (e.g., send data to the server)
+  console.log('Username:', username);
+  console.log('Password:', password);
+};
+
+
+
+
+
+
+
+
   return (
     <>
+    
 <div className='main-login-container'>
 <div className='Login-container'>
       <div className='Login-Inner-container'>
@@ -75,18 +119,21 @@ const LoginPage = () => {
 
 
             {/* Login Details */}
-            <div className='userLoginForm '>
+            <form onSubmit={handleSubmit}>
+            <div className='userLoginForm  grid gap-1'>
                    
-                    <div className='UserForm grid gap-2 '>
+                    <div className='UserForm1 grid  '>
                     <label className='text-left text-[12px] grid'>Email Address</label>
-                    <input className=' text-[10px] bg-slate-100 text-slate-200 w-full h-10  text-left pl-3 rounded-full'
-                     placeholder='example@gmail.com' ></input>
+                    <input type='text' className=' text-[10px] bg-slate-100 text-slate-500 w-full h-10  text-left pl-3 rounded-full'
+                     placeholder='ENTER YOUR USERNAME  example@gmail.com' onChange={handleUsernameChange}  value={setUsername}></input>
+                     {errors.username && <span>{errors.username}</span>}
                     </div>
 
-                  <div className='UserForm  grid gap-4 pt-2'>
+                  <div className='UserForm1  grid '>
                     <label className='text-left text-[12px]'>Password</label>
-                    <input type='password'id='psw' className=' text-[10px] text-slate-200 w-full grid gap-2 h-10 bg-slate-100 text-left pl-3
-                     rounded-full' placeholder='passwors' ></input>
+                    <input type='password' id='psw' className=' text-[10px] text-slate-500 w-full grid gap-2 h-10 bg-slate-100 text-left pl-3
+                     rounded-full' placeholder='ENTER YOUR PASSWORD' onChange={handlePasswordChange} value={setPassword}></input>
+                      {errors.password && <span>{errors.password}</span>}
                     <img className='eyesymbool' src='./images/Hide.png' onClick={mufun}></img>
                   </div>  
 
@@ -98,7 +145,7 @@ const LoginPage = () => {
                     </div>                
                   
                   <div className='submitcustomer1 bg-sky-700 text-center text-white hover:bg-sky-500 hover:text-black' >
-                    <button type='button' className="  font-bold text-[16px] "
+                    <button type='submit' className="  font-bold text-[16px] "
                      onClick={navigatetoHome}>Log in</button> 
                                        
                   </div>
@@ -111,6 +158,7 @@ const LoginPage = () => {
                     </div> 
                   
               </div>
+              </form>
               </div>
             
         

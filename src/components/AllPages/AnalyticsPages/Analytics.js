@@ -162,7 +162,7 @@ const Analytics = () => {
               Name
               <i className="fa fa-caret-down"></i>
             </button>
-            <div className="dropdown-content text-[10px] hover:bg-sky-600 text-sky-400">
+            <div className="dropdown-content text-[10px] hover:bg-sky-300 text-white">
               <a href="#">First Name</a>
               <a href="#">Last Name</a>
             </div>
@@ -173,7 +173,7 @@ const Analytics = () => {
               Email
               <i className="fa fa-caret-down"></i>
             </button>
-            <div className="dropdown-content items-center text-[10px] hover:bg-sky-600 text-sky-400">
+            <div className="dropdown-content items-center text-[10px] hover:bg-sky-300 text-white">
               <a href="#">Email 1</a>
               <a href="#">Email 2</a>
             </div>
@@ -184,7 +184,7 @@ const Analytics = () => {
               Phone Number
               <i className="fa fa-caret-down"></i>
             </button>
-            <div className="dropdown-content text-[10px] hover:bg-sky-600 text-sky-400">
+            <div className="dropdown-content text-[10px] hover:bg-sky-300 text-white">
               <a href="#">Phone 1</a>
               <a href="#">Phone 2</a>
             </div>
@@ -195,7 +195,7 @@ const Analytics = () => {
               Gender
               <i className="fa fa-caret-down"></i>
             </button>
-            <div className="dropdown-content text-[10px] hover:bg-sky-600 text-sky-400">
+            <div className="dropdown-content text-[10px] hover:bg-sky-300 text-white">
               <a href="#" className="">Male</a>
               <a href="#">Female</a>
             </div>

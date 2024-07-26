@@ -29,7 +29,7 @@
     left: -41px;
     width: 446px;
     height: 603px;
-    margin: auto;
+    margin: auto; 
     border: 1px solid #a6a2a2;
     background-color:  rgb(216, 216, 219);
 
@@ -186,7 +186,8 @@ hr.solid{
 
 
   /* media query for mobile */
-@media only screen and (max-width: 800px) and (min-width: 350px)
+/* @media only screen and (max-width: 800px) and (min-width: 350px) */
+@media only screen and (max-width: 800px)
 {
     .right-signup-container1{
         display: none;

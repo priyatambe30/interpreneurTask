@@ -27,6 +27,16 @@ const CalendarCombine = () => {
     };
   
 
+
+// calendarday//
+
+
+
+
+
+
+
+
   return (
     <>
     
@@ -44,6 +54,7 @@ const CalendarCombine = () => {
                 <button className='monthbtn'  onClick={navigatetoMonth}>Month</button>
                 <button className='yearbtn'  onClick={navigatetoYear}>Year</button> */}
                 <button className='daybtn' onClick={(day) => setActiveComponent('day')}>day</button>
+                {/* <button className='daybtn'>day</button> */}
         <button className='weekbtn' >week</button>
         <button className='monthbtn' onClick={() => setActiveComponent('month')}>month</button>
         <button className='yearbtn'  onClick={() => setActiveComponent('year')}>year</button>
@@ -88,15 +99,15 @@ const CalendarCombine = () => {
                   className="searchtext font-thin rounded-full text-[12px] "
                 ></input>
                      </div>
-                <div className="flex grid gap-2 font-thin  ">
-                  <div className="left-chatting-list grid flex border-solid border-2 border-slate-200">
+                <div className="flex grid gap-3 font-thin  ">
+                  <div className="left-chatting-list grid flex border-solid border-2 border-slate-200 ">
                     <ul
                       role="list"
                       className="p-2 divide-y divide-slate-200 gap-8"
                     >
-                      <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
+                      <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 gap-6 ">
                         <img
-                          className="h-7 w-7 rounded-full"
+                          className="h-25 w-25 rounded-full"
                           src="./images/image4.png"
                         ></img>
 
@@ -113,14 +124,14 @@ const CalendarCombine = () => {
                     </ul>
                   </div>
 
-                  <div className="left-chatting-list grid flex border-solid border-2 border-slate-200">
+                  <div className="left-chatting-list grid flex border-solid border-2 border-slate-200 ">
                     <ul
                       role="list"
-                      className="p-2 divide-y divide-slate-200 gap-4"
+                      className="p-2 divide-y divide-slate-200 "
                     >
-                      <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
+                      <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 gap-6 ">
                         <img
-                          className="h-7 w-7 rounded-full"
+                          className="h-25 w-25 rounded-full"
                           src="./images/image5.png"
                         ></img>
 
@@ -139,9 +150,9 @@ const CalendarCombine = () => {
                       role="list"
                       className="p-2 divide-y divide-slate-200 gap-4"
                     >
-                      <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
+                      <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 gap-6">
                         <img
-                          className="h-7 w-7 rounded-full"
+                          className="h-25 w-25 rounded-full"
                           src="./images/image7.png"
                         ></img>
 
@@ -166,7 +177,17 @@ const CalendarCombine = () => {
                     {/* right container */}
                     <div className='calendar-right-conatiner'>
                      
-                      
+{/*                     
+                        <div>
+                          <h1>Calendar</h1>
+                        </div> */}
+
+
+
+
+
+
+
                     {activeComponent === 'day' && <CalendarDay />}
         {/* {activeComponent === 'week' && < />} */}
         {activeComponent === 'month' && <CalendarMonth />}
@@ -178,10 +199,10 @@ const CalendarCombine = () => {
 
             </div>
         </div>
+        </div>
 
 
-
-    </div>
+    {/* </div> */}
     
     
     

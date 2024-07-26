@@ -14,6 +14,7 @@
     top: 50px;
     width: 1300px;
     height: 900px;
+    
 }
 .menu-table{
     text-indent: 0;
@@ -21,6 +22,7 @@
     border-collapse: collapse;
     width: 110px;
     margin-left: 41px;
+    
 }
 
 
@@ -64,12 +66,14 @@
     top: 40px;
     background-color: rgba(255, 255, 255, 1);
     width: 100px;
+    
 
 }
 .profile{
     position: relative;
     left: 10px;
     top: 600px;
+   
 }
 .menu-products{
     width:1050px ;
@@ -178,7 +182,7 @@
   color: black;
   display:flex;
 }
-.lamp-container{
+.lamp-container1{
   position: relative;
   left: 25px;
   top: 30px;

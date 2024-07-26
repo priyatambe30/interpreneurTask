@@ -7,8 +7,19 @@ import ScheduleToDo from './ScheduleToDo'
 import ScheduleInProgress from './ScheduleInProgress'
 import ScheduleInReview from './ScheduleInReview'
 import ScheduleDone from './ScheduleDone'
+import { useNavigate } from 'react-router-dom'
 
 const ScheduleTaskPreview = () => {
+  const navigate= useNavigate();
+  const navigatetolist = () => {
+    navigate('/calendar')
+  };
+  const navigatetoBoard = () => {
+    navigate('/settings')
+  };
+  const navigatetotimeline = () => {
+    navigate('/ScheduleTaskPreview')
+  };
   return (
     <>
 
@@ -26,9 +37,9 @@ const ScheduleTaskPreview = () => {
       <div className=' schedule-subheader-container flex font-thin text-[10px] '>
         
         <div className='schedule-subheader-container-btn font-thin flex gap-2  '>
-        <button className='border-1 gap-8 w-10 hover:bg-sky-400 border-2 hover:text-white'>List</button>
-        <button className='border-1 gap-8 w-10 hover:bg-sky-400 border-2 hover:text-white'>Board</button>
-        <button className='border-1 gap-8 w-10 hover:bg-sky-400 border-2 hover:text-white'>Timeline</button>
+        <button className='border-1 gap-8 w-16 hover:bg-sky-400 border-2 hover:text-white' onClick={navigatetolist}>List</button>
+        <button className='border-1 gap-8 w-16 hover:bg-sky-400 border-2 hover:text-white 'onClick={navigatetoBoard}>Board</button>
+        <button className='border-1 gap-8 w-16 hover:bg-sky-400 border-2 hover:text-white' onClick={navigatetotimeline}>Timeline</button>
         </div>
         
         <div className='searchbtn1 flex text-[14px]'>

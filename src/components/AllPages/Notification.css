@@ -50,9 +50,10 @@ h1 {
 }
 nav#sidebar {
   background-color: #34495e;
-  position: fixed;
-  width: 100px;
-  height: 55%;
+  position: relative;
+  left: 10px;
+  width: 860px;
+  height: 590px;
 }
 
 ul.dots * {
@@ -91,10 +92,11 @@ ul.dots li span {
   padding: 10px;
   width: 30px;
   height: 30px;
-  margin: 0 auto;
+  margin: 10px;
   line-height: 30px;
   text-align: center;
   position: relative;
+  left: 25px;
 }
 ul.dots li mark {
   -webkit-border-radius: 20px;

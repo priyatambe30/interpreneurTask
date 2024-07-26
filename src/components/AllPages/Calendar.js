@@ -5,10 +5,22 @@ import Menubar2 from "./Menubar2";
 
 const Calendar = () => {
   const navigate= useNavigate();
+  const navigatetolist = () => {
+    navigate('/calendar')
+  };
+  const navigatetoBoard = () => {
+    navigate('/settings')
+  };
+  const navigatetotimeline = () => {
+    navigate('/ScheduleTaskPreview')
+  };
 
   const handleclick =()=>{
     navigate('/calendar-combine')
   }
+  // const handleclick =()=>{
+  //   navigate('/calendar-combine')
+  // }
   return (
     <>
     <div className="flex"><div><Menubar2/></div>
@@ -19,17 +31,30 @@ const Calendar = () => {
         <button className="taskbtn font-thin" onClick={handleclick}>+Add Task</button>
       </div>
 
-      <div className="subheader-container1 flex font-thin text-[10px] ">
+      <div className="subheader-container1 flex font-thin text-[10px] gap-2 ">
         <div className="font-thin flex gap-6 text-[12px] ">
-          <button className="border-1 gap-8 w-10 hover:bg-sky-400 focus:outline-none active:bg-sky-500 focus-ring focus:ring-sky-300 border-1">
+
+        
+        <div className='schedule-subheader-container-btnss font-thin flex gap-2  '>
+        <button className='border-1 gap-8 w-16 hover:bg-sky-400 border-2 hover:text-white' onClick={navigatetolist}>List</button>
+        <button className='border-1 gap-8 w-16 hover:bg-sky-400 border-2 hover:text-white 'onClick={navigatetoBoard}>Board</button>
+        <button className='border-1 gap-8 w-20 hover:bg-sky-400 border-2 hover:text-white' onClick={navigatetotimeline}>Timeline</button>
+        </div>
+        
+
+
+
+
+          {/* <button className="border-2  w-10 hover:bg-sky-400 
+           active:bg-sky-500 focus-ring focus:ring-sky-300 border-1" onClick={navigatetolist}>
             List
           </button>
-          <button className="border-1 gap-8 w-10 hover:bg-sky-400 ">
+          <button className="border-1 gap-8 w-10 hover:bg-sky-400  " onClick={navigatetoBoard}>
             Board
           </button>
-          <button className="border-1 gap-8 w-10 hover:bg-sky-400">
+          <button className="border-1 gap-8 w-10 hover:bg-sky-400"onClick={navigatetotimeline}>
             Timeline
-          </button>
+          </button> */}
         </div>
 
         <div className="searchbox  text-[12px]">

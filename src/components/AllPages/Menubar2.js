@@ -63,7 +63,8 @@ const Menubar2 = () => {
       src: "./images/Calendar.png",
       label: "Calender",
       btFun: () => {
-        navigate("/calendar");
+        //navigate("/calendar");
+         navigate("/calendar-combine");
       },
     },
 
@@ -141,10 +142,10 @@ const Menubar2 = () => {
 
           <div className="lampBgImg   w-20 h-20" id='menu-box' 
                   style={{ display: menuVisible ? 'block' : 'none' }}></div>
-          <div className="lamp-container flex flex-col gap-y-6" id='menu-box' 
+          <div className="lamp-container1 flex flex-col gap-y-6" id='menu-box' 
                   style={{ display: menuVisible ? 'block' : 'none' }}>
             <img
-              className=" w-20 h-20"
+              className=" w-40 h-20"
               src="/images/object.png"
               alt="object photo"
               id="menu-box"

@@ -33,42 +33,42 @@ const AddCustomer = () => {
                   </div>
 
 
-                  <div className='userForm  grid gap-4'>
+                  <div className='userForm3 grid border border-2 '>
                     {/* <form action='grid gap-4'> */}
-                    <div className='UserForm grid gap-2 '>
-                    <label className='text-left text-[12px] grid gap-2'>First Name</label>
-                    <input className=' text-[10px] bg-slate-100 w-50 h-8 grid gap-2' placeholder='John' ></input>
+                    <div className='grid gap-2 '>
+                    <label className='text-left text-[12px] '>First Name</label>
+                    <input className=' text-[10px] bg-slate-100 w-80 h-10 rounded-full pl-4' placeholder='John' ></input>
                   </div>
 
-                  <div className='UserForm  grid gap-2'>
-                    <label className='text-left text-[12px]'>Last Name</label>
-                    <input className=' text-[10px] bg-slate-100 w-50 h-8 grid gap-4' placeholder='Deo' ></input>
+                  <div className='grid gap-2 '>
+                    <label className='text-left text-[12px] grid gap-3'>Last Name</label>
+                    <input className=' text-[10px] bg-slate-100 w-80 h-10 rounded-full pl-4' placeholder='Deo' ></input>
                   </div>
 
-                  <div className='UserForm  grid gap-2'>
-                    <label className='text-left text-[12px]'>Email</label>
-                    <input className=' text-[10px] bg-slate-100 w-50 h-8 grid gap-4' placeholder='example@gmail.com' ></input>
+                  <div className='grid gap-2 '>
+                    <label className='text-left text-[12px] grid gap-3'>Email</label>
+                    <input className=' text-[10px] bg-slate-100 w-80 h-10 rounded-full pl-4' placeholder='example@gmail.com' ></input>
                   </div>
 
-                  <div className='UserForm  grid gap-2'>
-                    <label className='text-left text-[12px]'>Phone No</label>
-                    <input className=' text-[10px] bg-slate-100 w-50 h-8 grid gap-4' placeholder='33757005467' ></input>
+                  <div className='grid gap-2 '>
+                    <label className='text-left text-[12px] grid gap-3'>Phone No</label>
+                    <input className=' text-[10px] bg-slate-100 w-80 h-10 rounded-full pl-4' placeholder='33757005467' ></input>
                   </div>
 
-                  <div className='UserForm  grid gap-2'>
-                    <label className='Gender text-left text-[12px]'>Gender</label>
+                  <div className=' grid'>
+                    <label className='Gender3 text-left text-[12px] w-full h-10 '>Gender</label>
                     {/* <input className=' text-[10px] bg-slate-100 w-50 h-8' placeholder='John' ></input> */}
                     <div className='dropdown'>
                     
 
-                    <select className='Gender text-left text-[12px] bg-slate-100 ' id='gender'>
+                    <select className='Gender3 text-left text-[12px] bg-slate-100 w-80 h-10 rounded-full' id='gender'>
                       <option className='male' value="male">Male</option>
                       <option className='female' value="female">Female</option>
                     </select>
                     </div>
                   </div>
                   <div>
-                    <button type='button' className='submitcustomer font-thin hover:bg-sky-500'>Add Customer</button>
+                    <button type='button' className='submitcustomer3 font-thin hover:bg-sky-500'>Add Customer</button>
                     {/* <input type='submit' className=''></input> */}
                   </div>
                     {/* </form> */}

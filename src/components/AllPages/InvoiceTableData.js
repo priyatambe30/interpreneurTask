@@ -6,7 +6,7 @@ function InvoiceTableData({invoiceArr}){
 
     const invoiceComponent= invoiceArr.map((invoice)=>{
         return(
-            <div className='table-container text-[12px] w-full text-black hover:bg-sky-100 hover:text-blue-500 bg-slate-100'>
+            <div className='table-container text-[12px] w-full text-black hover:bg-sky-100 hover:text-blue-500 bg-slate-100 gap-4'>
             
                 <label key={invoice.id} className="text-[12px] flex   grid grid-cols-12 text-left content-center gap-8   pt-2  text-black hover:bg-sky-100 hover:text-blue-500 bg-slate-100">
                 <input className='w-4 h-4' type='checkbox'></input>
@@ -14,15 +14,21 @@ function InvoiceTableData({invoiceArr}){
                 <label className='text-left'>{invoice.Invoiceid}</label>
               <img className='flex space-x-4 rounded-full text-left' src={invoice.src}></img>
              
-              <div className="h-8 w-18 text-left ">{invoice.name}</div>
-              <div className='flex col-span-2'> <img className='flex space-x-4 w-4 h-4 rounded-full text-left ' src={invoice.message}>
+              <div className="h-8 w-40 text-left  ">{invoice.name}</div>
+              <div className='flex col-span-3 pl-8'> <img className='flex space-x-4 w-4 h-4 rounded-full text-left ' src={invoice.message}>
               </img>{invoice.email}</div>
              
               <div className='flex col-span-2'> <img className='flex space-x-4 w-4 h-4 rounded-full text-left' src={invoice.calender}>
               </img><input type='date'></input>{invoice.Date}</div>
               
               {/* <div className=" status1 h-8 w-12  text-left " style={{ background: 'green', color:'white'}}>{invoice.status}</div> */}
-              <div className=" status1 h-8 w-12  text-left ">{invoice.status}</div>
+              <div className=" status1 h-8 w-12  text-left ">
+              <span className='p-2 rounded-lg'  style={{ backgroundColor: invoice.bgcolor }}>{invoice.status}</span>
+              <span className=''  style={{ textcolor: invoice.textcolor }}></span>
+              
+              </div>
+
+
               <div> <img className='flex space-x-4 rounded-full text-left' src={invoice.star}></img></div>
               <div className="flex space-x-8 text-[10px] text-right">
               <div className="dropdown">
@@ -84,7 +90,7 @@ function InvoiceTableData({invoiceArr}){
 
     <>
 
-<div className="invoiceComponent  font-thin grid divide-x-2  grid-flow-rows gap-8 gap-x-8  ">{invoiceComponent}</div>
+<div className="invoiceComponent  font-thin grid divide-x-2  grid-flow-rows gap-12 gap-x-8  ">{invoiceComponent}</div>
     
     
 

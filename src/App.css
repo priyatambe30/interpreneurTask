@@ -9,8 +9,9 @@
     height: 1047px;
     /* background-color: rgb(235, 231, 231); */
     position: relative;
-    left: 0px;
+    left: 10px;
     top: 0px;
+    /* border: 2px solid rgb(108, 103, 103); */
     
   }
   
@@ -58,6 +59,7 @@
     line-height: 40px;
     width: 100px;
     border-radius: 20px;
+    /* border: 2px solid rgb(108, 103, 103); */
   }
  
 .ImageContent{

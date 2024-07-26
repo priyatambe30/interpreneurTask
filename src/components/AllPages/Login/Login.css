@@ -37,7 +37,8 @@
 
 
 /* media query for mobile */
-@media only screen and (max-width: 800px) and (min-width: 350px)
+/* @media only screen and (max-width: 800px) and (min-width: 350px) */
+@media only screen and (max-width: 800px)
 {   .right-login-container,
     .image-container{
     display: none;

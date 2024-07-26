@@ -15,6 +15,7 @@ const Schedule = () => {
 
   const navigate= useNavigate();
   
+  
   const handleButtonClick = () => {
     navigate('/ScheduleTaskPreview')
   };
@@ -75,7 +76,7 @@ const Schedule = () => {
 
             <div>
               <p>People</p>
-              <div className="searchbtn flex">
+              <div className="searchbtnschedule flex">
                 <button type="submit" className=" bg-slate-100">
                   {" "}
                   <i className="fa fa-search"></i>
@@ -83,7 +84,7 @@ const Schedule = () => {
                 <input
                   type="text"
                   placeholder="search.."
-                  className="searchtext font-thin rounded-full  "
+                  className="searchtextschedule font-thin rounded-full  "
                 ></input>
 
                 <div className="flex grid gap-2 font-thin  ">
@@ -94,7 +95,7 @@ const Schedule = () => {
                     >
                       <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
                         <img
-                          className="h-7 w-7 rounded-full"
+                          className="h-12 w-12 rounded-full"
                           src="./images/image4.png"
                         ></img>
 
@@ -118,7 +119,7 @@ const Schedule = () => {
                     >
                       <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
                         <img
-                          className="h-7 w-7 rounded-full"
+                          className="h-12 w-12 rounded-full"
                           src="./images/image5.png"
                         ></img>
 
@@ -139,7 +140,7 @@ const Schedule = () => {
                     >
                       <li className="group/item hover:bg-slate-100 flex py-4 first:pt-0 last:pb-0 ">
                         <img
-                          className="h-7 w-7 rounded-full"
+                          className="h-12 w-12 rounded-full"
                           src="./images/image7.png"
                         ></img>
 
@@ -239,7 +240,7 @@ const Schedule = () => {
               </tr>
             </table> */}
                   {events.map((events, index) => (
-                 <div className="flex  gap-16  cols-7 border border-1-solid pt-2 hover:bg-slate-200 hover:text-sky-600 cursor-pointer">
+                 <div className="flex  gap-16  cols-7 border border-1-solid pt-3 hover:bg-slate-200 hover:text-sky-600 cursor-pointer">
                   <label key={index}></label>
 
                  <div className="pt-2"> <input type="checkbox"  ></input> </div>
@@ -253,8 +254,9 @@ const Schedule = () => {
                  <label className=" pl-2">{events.time}</label></div>
 
                  
-                 <div className="flex col-span-2 text-center bg-sky-100 text-blue-700 w-32 h-8 rounded-full pt-2 pl-2"><img className="w-3 h-3" src="./images/Location(2).png"></img>
-                 <label className=" pl-2">{events.location}</label></div>
+                 <div className="flex col-span-2 pl-6 text-center bg-sky-100 text-blue-700 w-48 h-8 rounded-full pt-2  gap-2">
+                  <img className="w-3 h-3" src="./images/Location(2).png"></img>
+                 <label className="">{events.location}</label></div>
 
                  <div><button className=""><img className="w-8 h-8" src="./images/Editbg.png"></img>
                  <img className="edit-btn w-3 h-3" src="./images/Edit.png"></img>

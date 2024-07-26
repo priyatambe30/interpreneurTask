@@ -11,13 +11,13 @@ import React from 'react'
               <label key={bt.id} className="text-[12px] flex flex-wrap  grid grid-cols-7 text-left content-center gap-8   pt-2  text-black hover:bg-sky-100 hover:text-blue-500 bg-slate-100">
               <img className='flex space-x-4 rounded-full text-left' src={bt.src}></img>
              
-              <div className="h-8 w-18 text-left ">{bt.name}</div>
+              <div className="h-10 w-18 text-left ">{bt.name}</div>
               <div className="flex col-span-2  h-8 w-40 text-left">{bt.email}</div>
               <div className="flex  h-8 w-18 text-left">{bt.phone}</div>
               <div className="gender1 h-8 w-18 text-right  ">
                 
                   <label className=' ' >
-                    <span className='span-gender-color  rounded-ml font-thin' style={{ backgroundColor: bt.color }}>{bt.gender}</span>
+                    <span className='span-gender-color  rounded-ml font-thin p-3 rounded-lg' style={{ backgroundColor: bt.color }}>{bt.gender}</span>
                     <span className=''  style={{ color: bt.textcolor }}>
 
                     </span>

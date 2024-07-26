@@ -4,9 +4,9 @@
 /* message box */
 .message-box{
     position: relative;
-    left: -960px;
+    left: -1039px;
     top: 90px;
-    width: 300px;
+    width: 358px;
     height: 850px;
     background-color: rgb(209, 207, 209);
 }
@@ -29,11 +29,11 @@
     padding-top: 3px;
 
 }
-.searchbtn{
+.searchbtnmsg{
     position: relative;
     left: 10px;
     top: 0px;
-    width: 270px;
+    width: 297px;
     height: 40px;
     font: bold;
     padding-top: 3px;
@@ -56,7 +56,7 @@
     position: relative;
     left: 15px;
     top: 30px;
-    width: 270px;
+    width: 300px;
     height: 60px;
     /* background-color: chartreuse; */
 }
@@ -77,10 +77,10 @@
 
 .indivisual-chat-box{
     position: relative;
-    left: -240px;
-    top: 80px;
+    left: -312px;
+    top: 71px;
     background-color: rgb(200, 201, 201);
-    height: 840px;
+    height: 848px;
     width: 600px;
     /* background-color: brown; */
 
@@ -94,7 +94,7 @@
 }
 .chat-box-symbol{
     position: relative;
-    left: 300px;
+    left: 360px;
     top: 20px;
 
 }
@@ -165,6 +165,6 @@
 .smile-send-icon{
 
     position: relative;
-    left: -10px;
+    left: 320px;
     top: 0px;
 }
